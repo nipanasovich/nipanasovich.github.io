@@ -189,7 +189,6 @@
     background:rgb(44, 116, 209) url(../img/160632.jpg) no-repeat 10%;
     background-size: cover;
 }
-//commit
 .page-footer::before {
     content: "";
     position: absolute;
