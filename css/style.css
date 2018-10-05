@@ -187,6 +187,7 @@
     position: relative;
     z-index:0;
     background:rgb(44, 116, 209) url(../img/160632.jpg) no-repeat 10%;
+    background-size: cover;
 }
 .page-footer::before {
     content: "";
