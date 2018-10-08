@@ -1,8 +1,11 @@
 var button = document.getElementById("hire-me");
+var message = document.getElementsByClassName('gm')[0];
 var close = document.getElementsByClassName("close")[0];
-button.addEventListener("click", function() {
-    document.getElementsByClassName("pop-up")[0].style.display = "block";
-});
+var open = () => {
+    document.getElementById("pop-up").style.display = "block";
+}
+button.addEventListener("click", open);
+message.addEventListener("click", open);
 close.addEventListener("click", () => {
-    document.getElementsByClassName("pop-up")[0].style.display = "none";
+    document.getElementById("pop-up").style.display = "none";
 })
