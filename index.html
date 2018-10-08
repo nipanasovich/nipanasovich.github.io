@@ -9,6 +9,17 @@
     <title>Nikita Panasovich</title>
 </head>
 <body>
+    <div class="pop-up">
+        <div class="write-me">
+            <h3>Write to me!</h3>
+            <form class="write-me__form" action="#" method="POST">
+                <input class="email-input" type="email" name="email" placeholder="example@email.com" required> <br>
+                <textarea class="message" name="message" rows="10" placeholder="Start typing something" required></textarea> <br>
+                <input class="submit" type="submit" value="Let's work together!">
+            </form>
+            <div class="close"></div>
+        </div>
+    </div>
     <header class="page-header">
         <div class="container">
 
@@ -29,7 +40,7 @@
                     </div>
                     
                 </div>
-                <div class="button"><button class="btn">Hire me</button></div> 
+                <div class="button"><button id="hire-me" class="btn">Hire me</button></div> 
             </div>
 
         </div>
@@ -130,5 +141,6 @@
                 </div>
             </div>
     </footer>
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
