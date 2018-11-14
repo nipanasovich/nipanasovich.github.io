@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "8b3a11df8fb599055f0a03d2aaff540d",
-    "url": "/static/media/close.8b3a11df.svg"
-  },
-  {
-    "revision": "9547224cea986fd3e448",
-    "url": "/static/css/main.e5f10f19.chunk.css"
-  },
-  {
     "revision": "c1d9ed76ba1a9a32d393e640d19fe8ed",
     "url": "/static/media/faceapp.c1d9ed76.jpg"
+  },
+  {
+    "revision": "9734910024cad5bbbb17",
+    "url": "/static/css/main.b2109906.chunk.css"
+  },
+  {
+    "revision": "8abe57a79af68e8fb9cd0e52f99db7b1",
+    "url": "/static/media/link.8abe57a7.svg"
   },
   {
     "revision": "42ed86b3b3dd970f99f5",
@@ -48,8 +48,20 @@ self.__precacheManifest = [
     "url": "/static/media/react.f0793d9f.svg"
   },
   {
-    "revision": "9547224cea986fd3e448",
-    "url": "/static/js/main.9547224c.chunk.js"
+    "revision": "218b78c2e4c50f0a1c95692276a8e367",
+    "url": "/static/media/160632.218b78c2.jpg"
+  },
+  {
+    "revision": "9734910024cad5bbbb17",
+    "url": "/static/js/main.97349100.chunk.js"
+  },
+  {
+    "revision": "24944ae769e271c8e0b433b3dffc24e5",
+    "url": "/static/media/robofriends.24944ae7.jpg"
+  },
+  {
+    "revision": "8b3a11df8fb599055f0a03d2aaff540d",
+    "url": "/static/media/close.8b3a11df.svg"
   },
   {
     "revision": "e3421fe0b536c77440ca702c8c983d26",
@@ -64,35 +76,31 @@ self.__precacheManifest = [
     "url": "/static/media/vk1.ef15ab6a.svg"
   },
   {
-    "revision": "67910a24ef067bf5dc2400ab841889c4",
-    "url": "/static/media/github.67910a24.svg"
-  },
-  {
     "revision": "db0721b19bf1b047866172744342786f",
     "url": "/static/media/github1.db0721b1.svg"
-  },
-  {
-    "revision": "587a4df297afc3d2e3be6be7099de59c",
-    "url": "/static/media/twitter.587a4df2.svg"
   },
   {
     "revision": "c9f1200836515fd4bacd29160be78732",
     "url": "/static/media/twitter1.c9f12008.svg"
   },
   {
-    "revision": "218b78c2e4c50f0a1c95692276a8e367",
-    "url": "/static/media/160632.218b78c2.jpg"
+    "revision": "67910a24ef067bf5dc2400ab841889c4",
+    "url": "/static/media/github.67910a24.svg"
   },
   {
-    "revision": "24944ae769e271c8e0b433b3dffc24e5",
-    "url": "/static/media/robofriends.24944ae7.jpg"
+    "revision": "587a4df297afc3d2e3be6be7099de59c",
+    "url": "/static/media/twitter.587a4df2.svg"
+  },
+  {
+    "revision": "d758aaa52449667e36324d8937a7a373",
+    "url": "/static/media/link-symbol.d758aaa5.svg"
   },
   {
     "revision": "42ed86b3b3dd970f99f5",
     "url": "/static/css/1.0106706f.chunk.css"
   },
   {
-    "revision": "5e6cb8f154c2473ec69a924450d052a1",
+    "revision": "b9ef75dbe9e19d7e416d79660b180362",
     "url": "/index.html"
   }
 ];
