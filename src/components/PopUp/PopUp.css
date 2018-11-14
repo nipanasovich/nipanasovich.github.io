@@ -26,6 +26,10 @@
     animation-timing-function: ease-out; 
 }
 
+.pop-up__window a>span {
+    display: none;
+}
+
 @keyframes appear {
     0% {
         opacity: 0;
