@@ -1,5 +1,5 @@
 import React from 'react';
-import img from './IMG_9727.JPG';
+import img from './img/IMG_9727.JPG';
 import MainEN from './MainEN';
 import MainRU from './MainRU';
 import './Main.css'

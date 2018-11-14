@@ -2,6 +2,7 @@
   "name": "jintsuu.github.io",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jintsuu.github.io",
   "dependencies": {
     "google-maps-react": "^2.0.2",
     "react": "^16.6.1",
@@ -24,5 +25,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }

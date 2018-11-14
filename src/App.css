@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  transition: all 1s;
 }
 
 .container {
@@ -7,6 +8,12 @@
   height: 100%;
   width: 70vw;
   position: relative;
+}
+
+.hidden {
+  display: none;
+  width: 0;
+  height: 0;
 }
 
 .main {
@@ -22,7 +29,7 @@
       rgba(71, 71, 71, 0.6),
       rgba(5, 92, 255, 0.6)
       ),
-       url(./components/Main/160632.jpg);
+       url(./components/Main/img/160632.jpg);
   background-size: cover;
   background-position: top;
   color: rgb(223, 235, 238);

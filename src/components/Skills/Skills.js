@@ -15,6 +15,7 @@ const Skills = ({skills, lang}) => {
                 skills.map((skill , i) => {
                     return (
                         <SkillCard 
+                            key={i}
                             src={logos[i]} 
                             name={skill.name}
                             text={lang === 'en' ? skill.textEn : skill.textRu} 
