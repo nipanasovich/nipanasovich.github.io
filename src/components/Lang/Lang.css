@@ -1,0 +1,16 @@
+.btn {
+    border: 1px solid white;
+    background: transparent;
+    padding: 1rem 2rem;
+    color:white;
+    font-size: 1.5rem;
+}
+.en {
+    margin-right: -1px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
