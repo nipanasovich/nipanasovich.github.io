@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "c1d9ed76ba1a9a32d393e640d19fe8ed",
-    "url": "/static/media/faceapp.c1d9ed76.jpg"
+    "revision": "e3421fe0b536c77440ca702c8c983d26",
+    "url": "/static/media/close1.e3421fe0.svg"
   },
   {
-    "revision": "9734910024cad5bbbb17",
-    "url": "/static/css/main.b2109906.chunk.css"
+    "revision": "cab94cac0e8d713bce1e",
+    "url": "/static/css/main.16d842a1.chunk.css"
   },
   {
-    "revision": "8abe57a79af68e8fb9cd0e52f99db7b1",
-    "url": "/static/media/link.8abe57a7.svg"
+    "revision": "6867dc1d8c3f290c147c21b885e73fd2",
+    "url": "/static/media/left-arrow1.6867dc1d.svg"
   },
   {
     "revision": "42ed86b3b3dd970f99f5",
@@ -52,24 +52,32 @@ self.__precacheManifest = [
     "url": "/static/media/160632.218b78c2.jpg"
   },
   {
-    "revision": "9734910024cad5bbbb17",
-    "url": "/static/js/main.97349100.chunk.js"
+    "revision": "c1d9ed76ba1a9a32d393e640d19fe8ed",
+    "url": "/static/media/faceapp.c1d9ed76.jpg"
   },
   {
     "revision": "24944ae769e271c8e0b433b3dffc24e5",
     "url": "/static/media/robofriends.24944ae7.jpg"
   },
   {
+    "revision": "cab94cac0e8d713bce1e",
+    "url": "/static/js/main.cab94cac.chunk.js"
+  },
+  {
     "revision": "8b3a11df8fb599055f0a03d2aaff540d",
     "url": "/static/media/close.8b3a11df.svg"
   },
   {
-    "revision": "e3421fe0b536c77440ca702c8c983d26",
-    "url": "/static/media/close1.e3421fe0.svg"
-  },
-  {
     "revision": "d1eff677b582e6914963154edbae6614",
     "url": "/static/media/vk.d1eff677.svg"
+  },
+  {
+    "revision": "67910a24ef067bf5dc2400ab841889c4",
+    "url": "/static/media/github.67910a24.svg"
+  },
+  {
+    "revision": "587a4df297afc3d2e3be6be7099de59c",
+    "url": "/static/media/twitter.587a4df2.svg"
   },
   {
     "revision": "ef15ab6acbe9cf150de2022760229795",
@@ -84,23 +92,31 @@ self.__precacheManifest = [
     "url": "/static/media/twitter1.c9f12008.svg"
   },
   {
-    "revision": "67910a24ef067bf5dc2400ab841889c4",
-    "url": "/static/media/github.67910a24.svg"
-  },
-  {
-    "revision": "587a4df297afc3d2e3be6be7099de59c",
-    "url": "/static/media/twitter.587a4df2.svg"
-  },
-  {
     "revision": "d758aaa52449667e36324d8937a7a373",
     "url": "/static/media/link-symbol.d758aaa5.svg"
+  },
+  {
+    "revision": "6c9efe0c8c1fb630cd48d0381ece4297",
+    "url": "/static/media/left-arrow.6c9efe0c.svg"
+  },
+  {
+    "revision": "8abe57a79af68e8fb9cd0e52f99db7b1",
+    "url": "/static/media/link.8abe57a7.svg"
+  },
+  {
+    "revision": "be237328d9c252b1b9133a02c3be3e5e",
+    "url": "/static/media/right-arrow.be237328.svg"
+  },
+  {
+    "revision": "445abfc59ed4db25bb9f34a6bab8ca88",
+    "url": "/static/media/right-arrow1.445abfc5.svg"
   },
   {
     "revision": "42ed86b3b3dd970f99f5",
     "url": "/static/css/1.0106706f.chunk.css"
   },
   {
-    "revision": "b9ef75dbe9e19d7e416d79660b180362",
+    "revision": "407df86535ec542814e3b16790f204ad",
     "url": "/index.html"
   }
 ];
