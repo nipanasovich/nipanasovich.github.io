@@ -67,6 +67,9 @@ class App extends Component {
             {lang === "EN" ? <AboutMeEn /> : <AboutMeRu /> }
           </div>
         </section>
+        <div className="skills-section">
+          
+        </div>
         
       </div>
     );

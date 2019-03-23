@@ -10,6 +10,9 @@ const Header = ({lang, isScrolled}) => {
                             { lang === "EN" ? "About Me" : "Обо Мне"}
                         </li>
                         <li className="header__list-item">
+                            { lang === "EN" ? "Skills and Knowledges" : "Навыки и Знания"}
+                        </li>
+                        <li className="header__list-item">
                             { lang === "EN" ? "Latest Works" : "Последние Работы"}
                         </li>
                         <li className="header__list-item">

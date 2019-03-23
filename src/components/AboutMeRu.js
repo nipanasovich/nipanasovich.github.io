@@ -13,22 +13,26 @@ const AboutMeRu = () => {
                     <div className="info__personal">
                         <h3 className="info__born-heading heading--3">Персональные данные</h3>
                         <p className="info__fullname info__text">Полное имя: Панасович Никита Игоревич</p>
-                        <p className="info__birthday info__text">День рождения: 05.12.1999</p>
+                        <p className="info__birthday info__text">День рождения: 5 Декабря 1999</p>
                         <p className="info__nationality info__text">Гражданство: Беларусь</p>
-                        <p className="info__living-place info__text">Место проживания: Санкт-Петербург</p>
+                        <p className="info__residence info__text">Место проживания: Санкт-Петербург</p>
                     </div>
                     <div className="info__education">
                         <h3 className='info__education-heading heading--3'>Образование</h3>
                         <p className="info__university info__text">Санкт-Петербургский Государственный Электротехнический Университет</p>
                         <p className="info__speaciality info__text">Специальность: Управление в технических системах</p>
-                        <p className="info__year info__text">Курс: 2</p>
+                        <p className="info__course info__text">Курс: 2</p>
                     </div>
                     
                 </div>
             </div>
-            <div className="about-me__briefly-info ">
+            <div className="info__briefly ">
                 <h3 className="heading--3">Коротко обо мне</h3>
-                <p className='about-me__briefly-info--text'>
+                <p className='info__briefly--text'>
+                    Начинающий, увлеченный, целеустремленный разработчик без опыта.
+                    В свободное время читаю и перевожу статьи посвященные веб-разработке, некоторый из них публикую на habr'е. 
+                    Постоянно стараюсь улучшать свои навыки во всех областях, начиная разработкой и заканчивая повседневнными вещами.
+                    Считаю, что залог продуктивного дня - это начать его с раннего утра. 
                     
                 </p>
             </div>
