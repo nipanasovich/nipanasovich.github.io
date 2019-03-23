@@ -1,0 +1,55 @@
+.btn-lang {
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 3px 5px;
+    font-size: 1.5rem;
+    color: #fff;
+
+    &:hover {
+        background: #fff;
+        color: black;
+    }
+
+    &--active {
+        border: 2px solid rgb(255, 255, 255);
+        padding: 3px 5px;
+        font-size: 1.5rem;
+        background: #fff;
+        color: black;
+    }
+}
+
+.btn-en {
+    margin-right: -3px;
+}
+
+.btn-ru {
+    margin-right: 20px;
+}
+
+
+.lang-btns {
+    display: flex;
+    position: fixed;
+    bottom: 10px;
+    right: -100px;
+    padding: 10px;
+    background: rgb(51, 48, 48);
+    border-radius: 10px;
+    transition: all .5s;
+    &:hover{
+        right: -20px;
+    }
+}
+
+.svg-lang {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 2rem;
+
+    
+}
+
+#svg-1, #svg-2 {
+    fill: #fff;
+}
