@@ -8,6 +8,7 @@
     &:hover {
         background: #fff;
         color: black;
+        cursor: pointer;
     }
 
     &--active {
@@ -31,6 +32,7 @@
 .lang-btns {
     display: flex;
     position: fixed;
+    z-index: 2;
     bottom: 10px;
     right: -100px;
     padding: 10px;

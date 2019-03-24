@@ -4,14 +4,13 @@
 
 // Media queries
 
-// Abstracts(variables, mixins)
-
-// Components (buttons, etc..)
-@import './components/buttons';
-@import './components/preloader';
+// Abstracts(variables, mixins, animations)
+@import './abstracts/animations';
 
 // Layout
 @import './layout/header';
 @import './layout/app';
 @import './layout/langButton';
 @import "./layout/aboutMe";
+@import "./layout/popUpContacts";
+@import './layout/preloader';

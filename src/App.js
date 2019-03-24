@@ -4,6 +4,7 @@ import LangButton from './components/LangButton';
 import AboutMeRu from './components/AboutMeRu';
 import AboutMeEn from './components/AboutMeEn';
 import Preloader from './components/Preloader';
+import PopUpContacts from './components/PopUpContacts';
 
 import './css/main.css';
 
@@ -12,8 +13,9 @@ class App extends Component {
     super();
     this.state = {
       lang: 'EN',
-      isLoaded: true,
+      isLoaded: false,
       isScrolled: false,
+      isPopUpOpened: false,
     }
   }
 
@@ -39,30 +41,48 @@ class App extends Component {
     }
   }
 
+  popUpSwitch = () => {
+    this.setState({
+      isPopUpOpened: !this.state.isPopUpOpened
+    });
+
+    if(this.state.isPopUpOpened) {
+      
+    }
+  }
+
+  onLoad = () => {
+    this.setState({
+      isLoaded: true,
+    });
+    console.log('im loaded');
+  }
+
   render() {
-    const {lang, isLoaded, isScrolled} = this.state; 
+    const {lang, isLoaded, isScrolled, isPopUpOpened} = this.state; 
     return (
-      <div className="App">
-        <Preloader isLoaded={isLoaded}/>
+      <div className={isLoaded ? "App" : "App-Loading"} onLoad={this.onLoad}>
+        <Preloader isLoaded={isLoaded} />
+        <PopUpContacts isPopUpOpened={isPopUpOpened} lang={lang} popUpSwitch={this.popUpSwitch}/>
         <section className="main-section">
         <div className='container'>
-          <Header lang={lang} isScrolled={isScrolled}/>
+          <Header lang={lang} isScrolled={isScrolled} popUpSwitch={this.popUpSwitch}/>
           <h1 className="main-section__heading">
             { lang === 'EN' 
-            ? 'Nikita Panasovich'
-            : 'Никита Панасович'
+              ? 'Nikita Panasovich'
+              : 'Никита Панасович'
             }
             <span className="main-section__sub-heading">
-            { lang === 'EN' 
-            ? 'Frontend-Developer'
-            : 'Фронтенд-Разработчик'
-            }
-          </span>
+              { lang === 'EN' 
+                ? 'Frontend-Developer'
+                : 'Фронтенд-Разработчик'
+              }
+            </span>
           </h1>
         </div>
         </section>
         <LangButton lang={lang} langChange={this.langChange} />
-        <section className='about-me-section'>
+        <section className='about-me-section' id="about-me-link">
           <div className='container'>
             {lang === "EN" ? <AboutMeEn /> : <AboutMeRu /> }
           </div>

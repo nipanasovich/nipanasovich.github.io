@@ -1,0 +1,62 @@
+// PRELOADER ANIMATION
+
+@for $i from 1 through 6 {
+	@keyframes preload-show-#{$i}{
+		from{
+			transform: rotateZ(60* $i + deg) rotateY(-90deg) rotateX(0deg);
+			border-left-color: #9c2f2f;
+		}
+	}
+	@keyframes preload-hide-#{$i}{
+		to{
+			transform: rotateZ(60* $i + deg) rotateY(-90deg) rotateX(0deg);
+			border-left-color: #9c2f2f;
+		}
+	}
+
+	@keyframes preload-cycle-#{$i}{
+		
+		$startIndex: $i*5;
+		$reverseIndex: (80 - $i*5);
+
+		#{$startIndex * 1%}{
+			transform: rotateZ(60* $i + deg) rotateY(90deg) rotateX(0deg);
+			border-left-color: #9c2f2f;
+		}
+		#{$startIndex + 5%},
+		#{$reverseIndex * 1%}{
+			transform: rotateZ(60* $i + deg) rotateY(0) rotateX(0deg);
+			border-left-color: #f7484e;
+		}
+
+		#{$reverseIndex + 5%},
+		100%{
+			transform: rotateZ(60* $i + deg) rotateY(90deg) rotateX(0deg);
+			border-left-color: #9c2f2f;
+		}
+	}
+}
+
+@keyframes preload-flip{
+	0%{
+		transform: rotateY(0deg) rotateZ(-60deg);
+	}
+	100%{
+		transform: rotateY(360deg) rotateZ(-60deg);
+	}
+}
+
+
+// POPUP ANIMATION
+
+
+@keyframes PopUpAppearing{
+
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+
+}

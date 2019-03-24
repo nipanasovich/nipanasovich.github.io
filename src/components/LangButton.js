@@ -1,6 +1,6 @@
 import React from 'react';
 
-const LangButton = ({lang, langChange}) => {
+const LangButton = ({ lang, langChange }) => {
     return (
         <div className='lang-btns'>
             <div className='svg-lang'>
