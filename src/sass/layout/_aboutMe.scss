@@ -1,31 +1,24 @@
 .about-me {
-    padding: 10rem 0;
-    &__photo img{
-        max-height: 40rem;
-        box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.527);
-        border-radius: 30px;
-    }
-    
-    &__heading {
-        display: inline-block;
-        padding: 5px 20px;
-        font-size: 7rem;
-        margin-bottom: 10rem;
-        background: linear-gradient(to right, rgba(231, 222, 255, 0.89), rgba(177, 202, 255, 0.774));
-        color: #fff;
-        background-clip: text;
-        color: transparent;
-        display: table;
+
+    &__photo {
+        margin-right: 4rem;
+        
+        img {
+            max-height: 40rem;
+            box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.527);
+            border-radius: 30px;
+        }
     }
 
     &__info {
         font-size: 2rem;
-        flex-basis: 80%;
+        flex-basis: 70%;
     }
 
     &__wrapper {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
         align-items: center;
     }
 
@@ -43,10 +36,6 @@
         padding: 30px 50px;
         box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.521);
         color: #fff;
-    }
-
-    &__personal, &__education {
-        margin-left: 4rem;
     }
 
     &__briefly {

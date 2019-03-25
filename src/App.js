@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import Header from './components/Header';
 import LangButton from './components/LangButton';
 import AboutMeRu from './components/AboutMeRu';
@@ -7,6 +8,7 @@ import Preloader from './components/Preloader';
 import PopUpContacts from './components/PopUpContacts';
 import SkillsRu from './components/SkillsRu';
 import SkillsEn from './components/SkillsEn';
+import LatestWorks from './components/LatestWorks';
 
 import './css/main.css';
 
@@ -18,7 +20,12 @@ class App extends Component {
       isLoaded: false,
       isScrolled: false,
       isPopUpOpened: false,
+      cardId: 0,
     }
+  }
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.changeHeaderClass);
   }
 
   langChange = (language) =>{
@@ -27,30 +34,21 @@ class App extends Component {
     });
   }
 
-  componentDidMount() {
-    window.addEventListener('scroll', this.changeHeaderClass);
+  scrollTo = (link) => {
+    let element = document.querySelector(link);
+    element.scrollIntoView();
   }
 
   changeHeaderClass = () => {
-    if (document.querySelector("html").scrollTop > 50) {
-      this.setState({
-        isScrolled: true,
-      });
-    } else {
-      this.setState({
-        isScrolled: false,
-      });
-    }
+    document.querySelector("html").scrollTop > 50 
+      ? this.setState({ isScrolled: true })
+      : this.setState({ isScrolled: false });
   }
 
   popUpSwitch = () => {
     this.setState({
       isPopUpOpened: !this.state.isPopUpOpened
     });
-
-    if(this.state.isPopUpOpened) {
-      
-    }
   }
 
   onLoad = () => {
@@ -60,40 +58,106 @@ class App extends Component {
     console.log('im loaded');
   }
 
+  changeCard = (direction, length) => {
+    let id = this.state.cardId;
+    if(direction === "right") {
+      this.state.cardId === (length - 1) 
+        ? this.setState({ cardId: 0 })
+        : this.setState({ cardId: ++id });
+    } else if(direction === "left") {
+      this.state.cardId === 0 
+        ? this.setState({ cardId: (length - 1) })
+        : this.setState({ cardId: --id });
+      console.log(this.state);
+    }
+  }
+
   render() {
-    const {lang, isLoaded, isScrolled, isPopUpOpened} = this.state; 
+    const {lang, isLoaded, isScrolled, isPopUpOpened, cardId} = this.state; 
+
     return (
-      <div className={isLoaded ? "App" : "App-Loading"} onLoad={this.onLoad}>
-        <Preloader isLoaded={isLoaded} />
-        <PopUpContacts isPopUpOpened={isPopUpOpened} lang={lang} popUpSwitch={this.popUpSwitch}/>
+      <div className={ isLoaded ? "App" : "App-Loading" } onLoad={ this.onLoad }>
+        {/* ---------------- PRELOADER COMPONENT ---------------------- */}
+        <Preloader isLoaded={ isLoaded } />
+        {/* --------------- POP UP COMPONENT ------------------- */}
+        <PopUpContacts 
+          isPopUpOpened={ isPopUpOpened } 
+          lang={ lang } 
+          popUpSwitch={ this.popUpSwitch }
+        />
+
+        {/* ------------------------ MAIN SECTION ------------------------ */}
         <section className="main-section">
-        <div className='container'>
-          <Header lang={lang} isScrolled={isScrolled} popUpSwitch={this.popUpSwitch}/>
-          <h1 className="main-section__heading">
-            { lang === 'EN' 
-              ? 'Nikita Panasovich'
-              : 'Никита Панасович'
-            }
-            <span className="main-section__sub-heading">
+          <div className='container'>
+            {/* ------------------------- HEADER COMPONENT ----------------------- */}
+            <Header 
+              lang={ lang } 
+              isScrolled={ isScrolled } 
+              popUpSwitch={ this.popUpSwitch }
+              scrollTo={ this.scrollTo }
+            />
+
+            <h1 className="main-section__heading">
               { lang === 'EN' 
-                ? 'Frontend-Developer'
-                : 'Фронтенд-Разработчик'
+                ? 'Nikita Panasovich'
+                : 'Никита Панасович'
               }
-            </span>
-          </h1>
-        </div>
+              <span className="main-section__sub-heading">
+                { lang === 'EN' 
+                  ? 'Frontend-Developer'
+                  : 'Фронтенд-Разработчик'
+                }
+              </span>
+            </h1>
+            
+          </div>
         </section>
-        <LangButton lang={lang} langChange={this.langChange} />
+
+        {/* ----------------------- LANG SWITCH BUTTON COMPONENT ------------------------ */}
+        <LangButton 
+          lang={ lang } 
+          langChange={ this.langChange } 
+        />
+
+        {/* ------------------------ ABOUT ME SECTION -------------------------------- */}
         <section className='about-me-section' id="about-me-link">
           <div className='container'>
-            {lang === "EN" ? <AboutMeEn /> : <AboutMeRu /> }
+
+            <h2 className="about-me-section__heading">
+              { lang === "EN" ? "About Me" : "Обо Мне" }
+            </h2>
+
+            {/*---------------------- ABOUT ME SECTION COMPONENT --------------------- */}
+            { lang === "EN" ? <AboutMeEn /> : <AboutMeRu /> }
           </div>
         </section>
+
+        {/* ----------------------- SKILLS SECTION -------------------------- */}
         <section className="skills-section" id="my-skills-link">
           <div className="container">
-            <h2 className="skills-section__heading">{ lang === "EN" ? "My Skills and Knowledges" : "Мои Знания и Навыки" }</h2>
+            <h2 className="skills-section__heading">
+              { lang === "EN" ? "My Skills and Knowledges" : "Мои Знания и Навыки" }
+            </h2>
+
+            {/* --------------------------- SKILLS SECTION COMPONENT ------------------------ */}
             { lang === "EN" ? <SkillsEn /> : <SkillsRu /> }
           </div>
+        </section>
+        
+        {/* ------------------------- LATEST WORKS SECTION --------------------- */}
+        <section className="latest-works-section" id="latest-works-link">
+              <div className="container">
+                <h2 className="latest-works-section__heading">
+                  { lang === "EN" ? "Latest Works" : "Последние Работы" }
+                </h2>
+
+                {/* ------------------- LATEST WORKS SECTION COMPONENT ------------------ */}
+                <LatestWorks 
+                  lang={ lang } 
+                  cardId={ cardId }
+                  changeCard={this.changeCard}
+                />
+              </div>
         </section>
         
       </div>

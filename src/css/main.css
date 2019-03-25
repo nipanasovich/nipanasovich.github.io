@@ -522,11 +522,6 @@ html {
           transform: scale(1.1);
 }
 
-.header__list-item--link {
-  text-decoration: none;
-  color: inherit;
-}
-
 .header--fixed {
   -webkit-transition: all .5s;
   transition: all .5s;
@@ -592,6 +587,20 @@ html {
           box-shadow: 0px 15px 50px 15px rgba(0, 0, 0, 0.425);
   position: relative;
   z-index: 5;
+  padding: 10rem 0;
+}
+
+.about-me-section__heading {
+  display: inline-block;
+  padding: 5px 20px;
+  font-size: 7rem;
+  margin-bottom: 10rem;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(231, 222, 255, 0.89)), to(rgba(177, 202, 255, 0.774)));
+  background: linear-gradient(to right, rgba(231, 222, 255, 0.89), rgba(177, 202, 255, 0.774));
+  color: #fff;
+  background-clip: text;
+  color: transparent;
+  display: table;
 }
 
 .skills-section {
@@ -610,6 +619,33 @@ html {
   font-size: 7rem;
   margin-bottom: 10rem;
   background: url(../img/main-background.jpg) 50% 50%;
+  color: #fff;
+  background-clip: text;
+  color: transparent;
+  display: table;
+}
+
+.latest-works-section {
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(2, 0, 19, 0.315)), to(rgba(0, 175, 228, 0.315))), url(../img/latest-works-background.jpg);
+  background: linear-gradient(to right bottom, rgba(2, 0, 19, 0.315), rgba(0, 175, 228, 0.315)), url(../img/latest-works-background.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  -webkit-box-shadow: 0px -15px 50px 15px rgba(0, 0, 0, 0.425);
+          box-shadow: 0px -15px 50px 15px rgba(0, 0, 0, 0.425);
+  position: relative;
+  z-index: 5;
+  padding: 10rem 0;
+}
+
+.latest-works-section__heading {
+  display: inline-block;
+  padding: 5px 20px;
+  font-size: 7rem;
+  margin-bottom: 10rem;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(231, 222, 255, 0.89)), to(rgba(177, 202, 255, 0.774)));
+  background: linear-gradient(to right, rgba(231, 222, 255, 0.89), rgba(177, 202, 255, 0.774));
   color: #fff;
   background-clip: text;
   color: transparent;
@@ -675,8 +711,8 @@ html {
   fill: #fff;
 }
 
-.about-me {
-  padding: 10rem 0;
+.about-me__photo {
+  margin-right: 4rem;
 }
 
 .about-me__photo img {
@@ -686,23 +722,10 @@ html {
   border-radius: 30px;
 }
 
-.about-me__heading {
-  display: inline-block;
-  padding: 5px 20px;
-  font-size: 7rem;
-  margin-bottom: 10rem;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(231, 222, 255, 0.89)), to(rgba(177, 202, 255, 0.774)));
-  background: linear-gradient(to right, rgba(231, 222, 255, 0.89), rgba(177, 202, 255, 0.774));
-  color: #fff;
-  background-clip: text;
-  color: transparent;
-  display: table;
-}
-
 .about-me__info {
   font-size: 2rem;
-  -ms-flex-preferred-size: 80%;
-      flex-basis: 80%;
+  -ms-flex-preferred-size: 70%;
+      flex-basis: 70%;
 }
 
 .about-me__wrapper {
@@ -712,6 +735,8 @@ html {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -729,10 +754,6 @@ html {
   -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.521);
           box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.521);
   color: #fff;
-}
-
-.info__personal, .info__education {
-  margin-left: 4rem;
 }
 
 .info__briefly {
@@ -1055,5 +1076,70 @@ html {
 
 .skills__item:not(:last-child) {
   margin-bottom: 2rem;
+}
+
+.latest-works {
+  position: relative;
+}
+
+.latest-works__btn {
+  height: 12rem;
+  width: 12rem;
+  position: relative;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  position: absolute;
+  top: 40%;
+}
+
+.latest-works__btn--left {
+  background: rgba(0, 153, 255, 0.493) url(../img/left.svg) no-repeat;
+  background-position: 20% 50%;
+  background-size: 80%;
+  left: 2rem;
+}
+
+.latest-works__btn--right {
+  background: rgba(0, 153, 255, 0.493) url(../img/right.svg) no-repeat;
+  background-position: 80% 50%;
+  background-size: 80%;
+  right: 2rem;
+}
+
+.latest-works__btn:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  background-color: rgba(0, 47, 255, 0.493);
+}
+
+.latest-works__direction-arrow {
+  height: 70%;
+  position: absolute;
+  top: 2rem;
+  right: 2.5rem;
+}
+
+.card {
+  height: 70rem;
+  width: 85%;
+  margin: 0 auto;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.589);
+  overflow: hidden;
+}
+
+.card__img {
+  max-width: 100%;
+}
+
+.card__name {
+  text-transform: uppercase;
+  color: white;
+  font-size: 6rem;
+  text-align: center;
+  margin-top: 1.5rem;
 }
 /*# sourceMappingURL=main.css.map */

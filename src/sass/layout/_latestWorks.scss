@@ -1,0 +1,63 @@
+.latest-works {
+    position: relative;
+    &__btn {
+        height: 12rem;
+        width: 12rem; 
+        position: relative;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: all .5s;
+        position: absolute;
+        top: 40%;
+
+        &--left {
+            background: rgba(0, 153, 255, 0.493) url(../img/left.svg) no-repeat;
+            background-position: 20% 50%;
+            background-size: 80%;
+            left: 2rem;
+        }
+
+        &--right {
+            background: rgba(0, 153, 255, 0.493) url(../img/right.svg) no-repeat;
+            background-position: 80% 50%;
+            background-size: 80%;
+            right: 2rem;
+        }
+
+        &:hover {
+            transform: scale(1.05);
+            background-color: rgba(0, 47, 255, 0.493);
+        }
+    }
+
+    &__direction-arrow {
+        height: 70%;
+        position: absolute;
+        top: 2rem;
+        right: 2.5rem;
+
+    }
+
+}
+
+.card {
+    height: 70rem;
+    width: 85%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.589);
+    overflow: hidden;
+    
+    &__img {
+        max-width: 100%;
+    }
+
+    &__name {
+        text-transform: uppercase;
+        color: white;
+        font-size: 6rem;
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+}

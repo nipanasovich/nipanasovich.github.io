@@ -4,7 +4,6 @@ import photo from '../img/photo.jpg';
 const AboutMeRu = () => {
     return (
         <div className='about-me' id="about-me-link">
-            <h2 className="about-me__heading">Обо Мне</h2>
             <div className="about-me__wrapper">
                 <div className='about-me__photo'>
                     <img src={photo} alt="Me" />
