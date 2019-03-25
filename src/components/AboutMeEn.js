@@ -14,7 +14,7 @@ const AboutMeEn = () => {
                         <h3 className="info__born-heading heading--3">Personal Infomation</h3>
                         <p className="info__fullname info__text">Full Name: Nikita Panasovich</p>
                         <p className="info__birthday info__text">Birthday: December 5, 1999</p>
-                        <p className="info__nationality info__text">Nationality: Belarus</p>
+                        <p className="info__nationality info__text">Nationality: Belarusian</p>
                         <p className="info__residence info__text">Residence: Russia, St.Petersburg</p>
                     </div>
                     <div className="info__education">

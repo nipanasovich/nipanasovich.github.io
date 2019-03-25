@@ -20,6 +20,7 @@
 
     &__info {
         font-size: 2rem;
+        flex-basis: 80%;
     }
 
     &__wrapper {
@@ -42,7 +43,10 @@
         padding: 30px 50px;
         box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.521);
         color: #fff;
-        min-width: 90rem;
+    }
+
+    &__personal, &__education {
+        margin-left: 4rem;
     }
 
     &__briefly {
@@ -55,6 +59,10 @@
     }
     &__briefly--text {
         font-size: 2rem;
+    }
+
+    &__list {
+        list-style: none;
     }
     
 }

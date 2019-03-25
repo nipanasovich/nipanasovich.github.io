@@ -5,6 +5,8 @@ import AboutMeRu from './components/AboutMeRu';
 import AboutMeEn from './components/AboutMeEn';
 import Preloader from './components/Preloader';
 import PopUpContacts from './components/PopUpContacts';
+import SkillsRu from './components/SkillsRu';
+import SkillsEn from './components/SkillsEn';
 
 import './css/main.css';
 
@@ -87,9 +89,12 @@ class App extends Component {
             {lang === "EN" ? <AboutMeEn /> : <AboutMeRu /> }
           </div>
         </section>
-        <div className="skills-section">
-          
-        </div>
+        <section className="skills-section" id="my-skills-link">
+          <div className="container">
+            <h2 className="skills-section__heading">{ lang === "EN" ? "My Skills and Knowledges" : "Мои Знания и Навыки" }</h2>
+            { lang === "EN" ? <SkillsEn /> : <SkillsRu /> }
+          </div>
+        </section>
         
       </div>
     );

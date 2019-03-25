@@ -29,6 +29,7 @@
     &--fixed {
         transition: all .5s;
         position: fixed;
+        z-index: 100;
         width: 100vw;
         top: 0;
         left: 0;

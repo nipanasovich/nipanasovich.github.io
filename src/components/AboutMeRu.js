@@ -12,16 +12,20 @@ const AboutMeRu = () => {
                 <div className="about-me__info">
                     <div className="info__personal">
                         <h3 className="info__born-heading heading--3">Персональные данные</h3>
-                        <p className="info__fullname info__text">Полное имя: Панасович Никита Игоревич</p>
-                        <p className="info__birthday info__text">День рождения: 5 Декабря 1999</p>
-                        <p className="info__nationality info__text">Гражданство: Беларусь</p>
-                        <p className="info__residence info__text">Место проживания: Санкт-Петербург</p>
+                        <ul className="info__list">
+                            <li className="info__fullname info__text">Полное имя: Панасович Никита Игоревич</li>
+                            <li className="info__birthday info__text">День рождения: 5 Декабря 1999</li>
+                            <li className="info__nationality info__text">Гражданство: Беларусь</li>
+                            <li className="info__residence info__text">Место проживания: Санкт-Петербург</li>
+                        </ul>
                     </div>
                     <div className="info__education">
                         <h3 className='info__education-heading heading--3'>Образование</h3>
-                        <p className="info__university info__text">Санкт-Петербургский Государственный Электротехнический Университет</p>
-                        <p className="info__speaciality info__text">Специальность: Управление в технических системах</p>
-                        <p className="info__course info__text">Курс: 2</p>
+                        <ul className="info__list">
+                            <li className="info__university info__text">Санкт-Петербургский Государственный Электротехнический Университет</li>
+                            <li className="info__speaciality info__text">Специальность: Управление в технических системах</li>
+                            <li className="info__course info__text">Курс: 2</li>
+                        </ul>
                     </div>
                     
                 </div>
