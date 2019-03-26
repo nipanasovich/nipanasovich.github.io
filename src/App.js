@@ -10,6 +10,7 @@ import SkillsRu from './components/SkillsRu';
 import SkillsEn from './components/SkillsEn';
 import LatestWorks from './components/LatestWorks';
 
+import git from './img/github-color.svg';
 import './css/main.css';
 
 class App extends Component {
@@ -176,13 +177,21 @@ class App extends Component {
         {/* ------------------------ FOOTER -------------------- */}
         <footer className="footer">
           <div className="container footer__wrapper">
-            <div className="footer__text">
-              <p>
+            <div className="footer__text--wrapper">
+              <p className="footer__text">
                 { 
                   lang === "EN" 
-                  ? "Created using React.js. Full code you can find in my github repository on second branch of this project"
-                  : "Создано при помощи React.js. Полный код вы можете найти в моем github репозитории на второй ветке этого проекта "
+                  ? "Created using React.js. Full code: "
+                  : "Создано при помощи React.js. Полный код: "
                 }
+                <a 
+                  className="github-link"
+                  href="https://github.com/jintsuu/jintsuu.github.io/tree/sources" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={ git } alt='git img' className="github-link__img" />
+                </a>
               </p>
               <span>
                 { lang === "EN" ? "March" : "Март"}, 2019

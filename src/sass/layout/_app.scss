@@ -135,12 +135,17 @@
     padding: 2rem 0;
 
     &__text {
-        color: rgb(97, 97, 97);
-        font-size: 2rem;
         display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        justify-content: space-around;
+        align-items: center;
+        &--wrapper {
+            color: rgb(97, 97, 97);
+            font-size: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: space-around;
+        }
+        
     }
 
     &__to-top {
@@ -168,5 +173,19 @@
 
     &__wrapper {
         position: relative;
+    }
+}
+
+.github-link {
+    &__img {
+        height: 4rem;
+        width: 4rem;
+        margin-left: 1rem;
+        transition: all .5s;
+
+
+        &:hover {
+            transform: scale(1.1);
+        }
     }
 }

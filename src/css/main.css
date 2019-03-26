@@ -495,6 +495,11 @@ html {
 }
 
 .footer__text {
+  display: flex;
+  align-items: center;
+}
+
+.footer__text--wrapper {
   color: #616161;
   font-size: 2rem;
   display: flex;
@@ -527,6 +532,17 @@ html {
 
 .footer__wrapper {
   position: relative;
+}
+
+.github-link__img {
+  height: 4rem;
+  width: 4rem;
+  margin-left: 1rem;
+  transition: all .5s;
+}
+
+.github-link__img:hover {
+  transform: scale(1.1);
 }
 
 .btn-lang {
@@ -888,7 +904,7 @@ html {
 }
 
 .latest-works__items {
-  max-height: 70rem;
+  max-height: 80rem;
   overflow-x: scroll;
   display: flex;
   justify-content: flex-start;
@@ -1001,6 +1017,9 @@ html {
 }
 
 @media screen and (max-width: 1069px) {
+  .main-section__heading {
+    align-items: flex-start;
+  }
   .about-me__info {
     flex-basis: 100%;
     margin-top: 2rem;
@@ -1026,10 +1045,68 @@ html {
 @media screen and (max-width: 700px) {
   .container {
     width: 100%;
-    padding: 0 2rem;
+    padding: 0 1rem;
+  }
+  .header--low__button {
+    left: 2vw;
+  }
+  .header--low__button--close {
+    left: 33vw;
+  }
+  .header--low__list--active {
+    left: -3vw;
+    padding-left: 5vw;
+    padding-top: 10rem;
+  }
+  #line-1 {
+    transform: rotate(45deg) translateY(5px) translateX(6px);
+  }
+  #line-3 {
+    transform: rotate(-45deg) translateY(-4px) translateX(5px);
   }
   html {
     font-size: 50%;
+    overflow-x: hidden;
+  }
+  .footer__to-top {
+    display: none;
+  }
+  .main-section__heading {
+    font-size: 7rem;
+    align-items: flex-start;
+  }
+  .main-section__sub-heading {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .header--low__button {
+    left: 2vw;
+  }
+  .header--low__button--close {
+    left: 55vw;
+  }
+  .header--low__list--active {
+    left: -50vw;
+    padding-left: 60vw;
+    padding-top: 10rem;
+    min-width: 120vw;
+  }
+}
+
+@media screen and (max-height: 550px) {
+  .main-section__heading {
+    margin-top: 18vh;
+  }
+}
+
+@media screen and (max-height: 550px) and (max-width: 815px) {
+  .main-section__heading {
+    font-size: 6rem;
+  }
+  .main-section__sub-heading {
+    font-size: 5rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
