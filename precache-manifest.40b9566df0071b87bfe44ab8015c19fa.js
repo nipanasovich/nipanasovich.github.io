@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "b4e92f70ff9bb5cd4bc01374c5311944",
-    "url": "/static/media/about-me-background.b4e92f70.jpg"
+    "revision": "db0721b19bf1b047866172744342786f",
+    "url": "/static/media/github-color.db0721b1.svg"
   },
   {
-    "revision": "db9739bf0a14f3c57d01",
-    "url": "/static/css/main.62dd9aa9.chunk.css"
+    "revision": "4c5ad4cf740a570c51f0",
+    "url": "/static/css/main.08c2ae4f.chunk.css"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "0e07534c4fac4e96f5cb",
-    "url": "/static/js/2.fc3b12ce.chunk.js"
+    "revision": "0717be8837958f6e65f9",
+    "url": "/static/js/2.5ad37044.chunk.js"
   },
   {
     "revision": "60a4ef20b68dcfb0329cb9b64c64a944",
@@ -44,12 +44,8 @@ self.__precacheManifest = [
     "url": "/static/media/shoe-shop.204b79d9.jpg"
   },
   {
-    "revision": "db9739bf0a14f3c57d01",
-    "url": "/static/js/main.d94c1569.chunk.js"
-  },
-  {
-    "revision": "983dfc4e50a288c2962ed01d7fcef4ec",
-    "url": "/static/media/main-background.983dfc4e.jpg"
+    "revision": "4c5ad4cf740a570c51f0",
+    "url": "/static/js/main.fc4d60c9.chunk.js"
   },
   {
     "revision": "9e96ea995ce82644261ec8ee786a624d",
@@ -60,6 +56,10 @@ self.__precacheManifest = [
     "url": "/static/media/arrow-up-hover.40fe16c6.svg"
   },
   {
+    "revision": "36989eac374b26347085d3cfcb424b10",
+    "url": "/static/media/left.36989eac.svg"
+  },
+  {
     "revision": "35a6ccb5ed555dd6c31878ae02c9fd0d",
     "url": "/static/media/close-hover.35a6ccb5.svg"
   },
@@ -68,23 +68,27 @@ self.__precacheManifest = [
     "url": "/static/media/close.b2138751.svg"
   },
   {
-    "revision": "36989eac374b26347085d3cfcb424b10",
-    "url": "/static/media/left.36989eac.svg"
+    "revision": "f1f1e485ac728c93034fb4df818eccae",
+    "url": "/static/media/right.f1f1e485.svg"
   },
   {
     "revision": "015af661050d2c1bd85765af9936e15d",
     "url": "/static/media/main-background-2.015af661.jpg"
   },
   {
-    "revision": "f1f1e485ac728c93034fb4df818eccae",
-    "url": "/static/media/right.f1f1e485.svg"
+    "revision": "b4e92f70ff9bb5cd4bc01374c5311944",
+    "url": "/static/media/about-me-background.b4e92f70.jpg"
+  },
+  {
+    "revision": "983dfc4e50a288c2962ed01d7fcef4ec",
+    "url": "/static/media/main-background.983dfc4e.jpg"
   },
   {
     "revision": "49641bf84eb76dc9b6e8ad993fb1892a",
     "url": "/static/media/latest-works-background.49641bf8.jpg"
   },
   {
-    "revision": "e96a6bf56ab185d94c270602b89afd29",
+    "revision": "aab91da4022d826861340c36c5941941",
     "url": "/index.html"
   }
 ];
