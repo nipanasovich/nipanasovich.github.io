@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "983dfc4e50a288c2962ed01d7fcef4ec",
-    "url": "/static/media/main-background.983dfc4e.jpg"
+    "revision": "b4e92f70ff9bb5cd4bc01374c5311944",
+    "url": "/static/media/about-me-background.b4e92f70.jpg"
   },
   {
-    "revision": "478cdb50868992743b1a",
-    "url": "/static/css/main.d27a1aaa.chunk.css"
+    "revision": "db9739bf0a14f3c57d01",
+    "url": "/static/css/main.62dd9aa9.chunk.css"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -44,28 +44,20 @@ self.__precacheManifest = [
     "url": "/static/media/shoe-shop.204b79d9.jpg"
   },
   {
-    "revision": "478cdb50868992743b1a",
-    "url": "/static/js/main.e8049f64.chunk.js"
+    "revision": "db9739bf0a14f3c57d01",
+    "url": "/static/js/main.d94c1569.chunk.js"
   },
   {
-    "revision": "015af661050d2c1bd85765af9936e15d",
-    "url": "/static/media/main-background-2.015af661.jpg"
+    "revision": "983dfc4e50a288c2962ed01d7fcef4ec",
+    "url": "/static/media/main-background.983dfc4e.jpg"
   },
   {
     "revision": "9e96ea995ce82644261ec8ee786a624d",
     "url": "/static/media/arrow-up.9e96ea99.svg"
   },
   {
-    "revision": "b4e92f70ff9bb5cd4bc01374c5311944",
-    "url": "/static/media/about-me-background.b4e92f70.jpg"
-  },
-  {
     "revision": "40fe16c637461730f383142571157050",
     "url": "/static/media/arrow-up-hover.40fe16c6.svg"
-  },
-  {
-    "revision": "36989eac374b26347085d3cfcb424b10",
-    "url": "/static/media/left.36989eac.svg"
   },
   {
     "revision": "35a6ccb5ed555dd6c31878ae02c9fd0d",
@@ -76,6 +68,14 @@ self.__precacheManifest = [
     "url": "/static/media/close.b2138751.svg"
   },
   {
+    "revision": "36989eac374b26347085d3cfcb424b10",
+    "url": "/static/media/left.36989eac.svg"
+  },
+  {
+    "revision": "015af661050d2c1bd85765af9936e15d",
+    "url": "/static/media/main-background-2.015af661.jpg"
+  },
+  {
     "revision": "f1f1e485ac728c93034fb4df818eccae",
     "url": "/static/media/right.f1f1e485.svg"
   },
@@ -84,7 +84,7 @@ self.__precacheManifest = [
     "url": "/static/media/latest-works-background.49641bf8.jpg"
   },
   {
-    "revision": "1882fbfaf252fe12b4c3467bc1d231a4",
+    "revision": "e96a6bf56ab185d94c270602b89afd29",
     "url": "/index.html"
   }
 ];
