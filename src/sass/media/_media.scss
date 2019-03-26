@@ -1,0 +1,70 @@
+@media screen and (max-width:1800px) {
+    .about-me__info {
+        flex-basis: 60%; 
+    }
+}
+
+@media screen and (max-width:1350px) {
+    .about-me__info {
+        flex-basis: 50%; 
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .header {
+        &__nav {
+            display: none;
+        }
+        &--low {
+            display: block;
+        }
+        &--fixed {
+            z-index: 100;
+            padding: 0;
+            background: none;
+        }
+    }    
+}
+
+@media screen and (max-width: 1069px) {
+    .about-me {
+        &__info {
+            flex-basis: 100%; 
+            margin-top: 2rem;
+        }
+
+        &__photo {
+            margin-right: 0;
+            img {
+                height: 30rem;
+            }
+        }
+        &__wrapper {
+            justify-content: center;
+        }
+
+        
+        
+    }
+
+    .heading--2 {
+        text-align: center;
+        display: block;
+    }
+
+    .latest-works__btn {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .container {
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    html {
+        font-size: 50%;
+    }
+}

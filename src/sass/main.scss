@@ -2,8 +2,6 @@
 @import './base/base';
 @import './base/typography';
 
-// Media queries
-
 // Abstracts(variables, mixins, animations)
 @import './abstracts/animations';
 
@@ -16,3 +14,6 @@
 @import './layout/preloader';
 @import './layout/skills';
 @import './layout/latestWorks';
+
+// Media queries
+@import './media/media';

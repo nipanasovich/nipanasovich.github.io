@@ -30,7 +30,7 @@ const AboutMeEn = () => {
                 <p className='info__briefly--text'>
                     Goal-oriented, enthusiastic beginner developer without experience.
                     In leisure time I'm reading articles about web-development and translate them into russian language, some of them publish on habr.ru
-                    Always trying to improve my skills, not only in web-development but also in my daily affairs.
+                    Always improving my skills, not only in web-development but also in my daily affairs.
                     I think that productive day is the day that began in early morning. 
                     
                 </p>

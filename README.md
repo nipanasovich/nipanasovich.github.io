@@ -1,4 +1,20 @@
+## My new version of portfolio web-page
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+below leave basic react available scripts what was here by default.
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Available Scripts
 

@@ -11,13 +11,22 @@ const LatestWorks = ({ lang, cardId, changeCard }) => {
                 className="latest-works__btn latest-works__btn--left" 
                 onClick={ () => changeCard("left", works.length) }
             ></button>
-            <WorkCard 
-                id={ works[cardId].id } 
-                name={ works[cardId].name } 
-                description={ lang === "EN" ? works[cardId].descriptionEN :  works[cardId].descriptionRU }
-                link={ works[cardId].gitLink } 
-                image={ works[cardId].img }
-            />
+            <div className="latest-works__items">
+                {
+                    works.map( item => {
+                        return (
+                            <WorkCard 
+                                id={ item.id }
+                                key={ item.id } 
+                                name={ item.name } 
+                                description={ lang === "EN" ? item.descriptionEN :  item.descriptionRU }
+                                link={ item.gitLink } 
+                                image={ item.img }
+                            />
+                        );
+                    } )
+                }
+            </div>
             <button 
                 className="latest-works__btn latest-works__btn--right" 
                 onClick={ () => changeCard("right", works.length) }

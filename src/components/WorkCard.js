@@ -2,7 +2,7 @@ import React from 'react';
 
 const WorkCard = ({ id, name, description, link, image }) => {
     return(
-        <div className="card">
+        <div className="card" id={`card-${id}`}>
             <div className="card__img--wrapper">
                 <img src={image} alt={`Work number ${id}`} className="card__img"/>
             </div>

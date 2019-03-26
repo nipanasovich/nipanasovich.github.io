@@ -53,8 +53,6 @@
     padding: 10rem 0;
 
     &__heading {
-        display: inline-block;
-        padding: 5px 20px;
         font-size: 7rem;
         margin-bottom: 10rem;
         background: linear-gradient(to right, rgba(231, 222, 255, 0.89), rgba(177, 202, 255, 0.774));
@@ -119,5 +117,56 @@
         background-clip: text;
         color: transparent;
         display: table;
+    }
+}
+
+.footer {
+    background: 
+        linear-gradient(
+        to left bottom, 
+        rgba(0, 0, 0, 0.705),
+        rgba(23, 0, 65, 0.726)
+        ),
+        url(../img/main-background-2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    padding: 2rem 0;
+
+    &__text {
+        color: rgb(97, 97, 97);
+        font-size: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-around;
+    }
+
+    &__to-top {
+        width: 6rem;
+        height: 6rem;
+        border: none;
+        position: absolute;
+        right: -8rem;
+        top: 0;
+        background: url(../img/arrow-up.svg) no-repeat;
+        background-position: 20% 50%;
+        background-size: 90%;
+        margin-left: 2rem;
+        cursor: pointer;
+        transition: all .5s;
+
+        &:hover {
+            background: url(../img/arrow-up-hover.svg) no-repeat;
+            background-position: 20% 50%;
+            background-size: 90%;
+            transform: scale(1.1);
+        }
+        
+    }
+
+    &__wrapper {
+        position: relative;
     }
 }

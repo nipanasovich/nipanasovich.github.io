@@ -1,5 +1,17 @@
 .latest-works {
     position: relative;
+
+    &__items {
+        max-height: 70rem;
+        overflow-x: scroll;
+        display: flex;
+        justify-content: flex-start;
+        &::-webkit-scrollbar { 
+            width: 0;
+        }
+        scroll-behavior: smooth;
+    }
+
     &__btn {
         height: 12rem;
         width: 12rem; 
@@ -15,14 +27,14 @@
             background: rgba(0, 153, 255, 0.493) url(../img/left.svg) no-repeat;
             background-position: 20% 50%;
             background-size: 80%;
-            left: 2rem;
+            left: 1.5%;
         }
 
         &--right {
             background: rgba(0, 153, 255, 0.493) url(../img/right.svg) no-repeat;
             background-position: 80% 50%;
             background-size: 80%;
-            right: 2rem;
+            right: 1.5%;
         }
 
         &:hover {
@@ -42,15 +54,31 @@
 }
 
 .card {
-    height: 70rem;
-    width: 85%;
+    -max-height: 100%;
+    min-width: 100%;
+    display: inline-block;
     margin: 0 auto;
     border-radius: 10px;
     background: rgba(0, 0, 0, 0.589);
     overflow: hidden;
+
+    &:not(:last-child) {
+        margin-right: 2rem;
+    }
     
     &__img {
         max-width: 100%;
+        &--wrapper {
+            max-height: 80%;
+            overflow: hidden;
+        }
+    }
+
+    &__description {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 13.6rem;
     }
 
     &__name {
@@ -58,6 +86,6 @@
         color: white;
         font-size: 6rem;
         text-align: center;
-        margin-top: 1.5rem;
+        
     }
 }

@@ -26,14 +26,14 @@ const SkillsEn = () => {
                     I understand how callbacks are handled.
                     Learned about promises and fetch API, and differences between axios.js and fetch API.
                     I know ES6, ES7. On basic level have studied classes and prototypes, 
-                    and specificities of this keyword.
+                    also closures and specificities of "this" keyword.
                 </p>
             </div>
             <div className="skills__other skills__item">
                 <h3 className="skills__heading">Other Skills</h3>
                 <p className="skills__text">
                     On basic level learned about React and Vue frameworks, HTTP-protocol and REST-architecture.
-                    I've studied data structers and algorithms. Can work with npm-packages and git. 
+                    Can work with npm-packages and git. 
                     Have some experience with Linux. 
                     English on pre-intermediate - intermediate level. 
                 </p>

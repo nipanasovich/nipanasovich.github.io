@@ -20,12 +20,15 @@ class App extends Component {
       isLoaded: false,
       isScrolled: false,
       isPopUpOpened: false,
-      cardId: 0,
+      isHeaderOpened: false,
+      cardId: 1,
     }
   }
 
   componentDidMount() {
     window.addEventListener('scroll', this.changeHeaderClass);
+
+    
   }
 
   langChange = (language) =>{
@@ -60,20 +63,29 @@ class App extends Component {
 
   changeCard = (direction, length) => {
     let id = this.state.cardId;
+    console.log(length);
     if(direction === "right") {
-      this.state.cardId === (length - 1) 
-        ? this.setState({ cardId: 0 })
+      this.state.cardId === (length) 
+        ? this.setState({ cardId: 1 }) 
         : this.setState({ cardId: ++id });
     } else if(direction === "left") {
-      this.state.cardId === 0 
-        ? this.setState({ cardId: (length - 1) })
+      this.state.cardId === 1 
+        ? this.setState({ cardId: (length) })
         : this.setState({ cardId: --id });
-      console.log(this.state);
     }
+    console.log(id, this.state.cardId);
+    let element = document.querySelector(`#card-${this.state.cardId}`);
+    element.scrollIntoView();
+  }
+
+  changeHeaderState = () => {
+    this.setState({
+      isHeaderOpened: !this.state.isHeaderOpened,
+    });
   }
 
   render() {
-    const {lang, isLoaded, isScrolled, isPopUpOpened, cardId} = this.state; 
+    const {lang, isLoaded, isScrolled, isPopUpOpened, isHeaderOpened} = this.state; 
 
     return (
       <div className={ isLoaded ? "App" : "App-Loading" } onLoad={ this.onLoad }>
@@ -87,14 +99,16 @@ class App extends Component {
         />
 
         {/* ------------------------ MAIN SECTION ------------------------ */}
-        <section className="main-section">
+        <section className="main-section" id="main">
           <div className='container'>
             {/* ------------------------- HEADER COMPONENT ----------------------- */}
             <Header 
               lang={ lang } 
               isScrolled={ isScrolled } 
+              isHeaderOpened={ isHeaderOpened }
               popUpSwitch={ this.popUpSwitch }
               scrollTo={ this.scrollTo }
+              changeHeaderState={ this.changeHeaderState }
             />
 
             <h1 className="main-section__heading">
@@ -123,7 +137,7 @@ class App extends Component {
         <section className='about-me-section' id="about-me-link">
           <div className='container'>
 
-            <h2 className="about-me-section__heading">
+            <h2 className="about-me-section__heading heading--2">
               { lang === "EN" ? "About Me" : "Обо Мне" }
             </h2>
 
@@ -135,7 +149,7 @@ class App extends Component {
         {/* ----------------------- SKILLS SECTION -------------------------- */}
         <section className="skills-section" id="my-skills-link">
           <div className="container">
-            <h2 className="skills-section__heading">
+            <h2 className="skills-section__heading heading--2">
               { lang === "EN" ? "My Skills and Knowledges" : "Мои Знания и Навыки" }
             </h2>
 
@@ -150,15 +164,33 @@ class App extends Component {
                 <h2 className="latest-works-section__heading">
                   { lang === "EN" ? "Latest Works" : "Последние Работы" }
                 </h2>
-
+              
                 {/* ------------------- LATEST WORKS SECTION COMPONENT ------------------ */}
                 <LatestWorks 
                   lang={ lang } 
-                  cardId={ cardId }
                   changeCard={this.changeCard}
                 />
               </div>
         </section>
+
+        {/* ------------------------ FOOTER -------------------- */}
+        <footer className="footer">
+          <div className="container footer__wrapper">
+            <div className="footer__text">
+              <p>
+                { 
+                  lang === "EN" 
+                  ? "Created using React.js. Full code you can find in my github repository on second branch of this project"
+                  : "Создано при помощи React.js. Полный код вы можете найти в моем github репозитории на второй ветке этого проекта "
+                }
+              </p>
+              <span>
+                { lang === "EN" ? "March" : "Март"}, 2019
+              </span>
+            </div>
+            <button className="footer__to-top" onClick={() => this.scrollTo("#main")}></button>
+          </div>
+        </footer>
         
       </div>
     );
