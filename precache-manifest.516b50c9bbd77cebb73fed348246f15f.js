@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/github-color.db0721b1.svg"
   },
   {
-    "revision": "4c5ad4cf740a570c51f0",
-    "url": "/static/css/main.08c2ae4f.chunk.css"
+    "revision": "05a6bac90095858da538",
+    "url": "/static/css/main.1241cdaa.chunk.css"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/static/js/2.5ad37044.chunk.js"
   },
   {
-    "revision": "60a4ef20b68dcfb0329cb9b64c64a944",
-    "url": "/static/media/photo.60a4ef20.jpg"
+    "revision": "9f4791d03d75a3db0857a4b5654ebed7",
+    "url": "/static/media/photo.9f4791d0.jpg"
   },
   {
     "revision": "25b8f1d25d190176f8064440e14082a5",
@@ -36,32 +36,28 @@ self.__precacheManifest = [
     "url": "/static/media/github.67910a24.svg"
   },
   {
-    "revision": "f10e622f35a94397a11ebeebb81227c4",
-    "url": "/static/media/natours.f10e622f.jpg"
+    "revision": "e6305b906f51c3b6e99d58ae865e3e4d",
+    "url": "/static/media/natours.e6305b90.jpg"
   },
   {
-    "revision": "204b79d9f51e662e73156c442f322526",
-    "url": "/static/media/shoe-shop.204b79d9.jpg"
+    "revision": "83527bde7aabd0cc736b14d996ca2754",
+    "url": "/static/media/shoe-shop.83527bde.jpg"
   },
   {
-    "revision": "4c5ad4cf740a570c51f0",
-    "url": "/static/js/main.fc4d60c9.chunk.js"
+    "revision": "05a6bac90095858da538",
+    "url": "/static/js/main.07c346e3.chunk.js"
   },
   {
     "revision": "9e96ea995ce82644261ec8ee786a624d",
     "url": "/static/media/arrow-up.9e96ea99.svg"
   },
   {
-    "revision": "40fe16c637461730f383142571157050",
-    "url": "/static/media/arrow-up-hover.40fe16c6.svg"
-  },
-  {
-    "revision": "36989eac374b26347085d3cfcb424b10",
-    "url": "/static/media/left.36989eac.svg"
-  },
-  {
     "revision": "35a6ccb5ed555dd6c31878ae02c9fd0d",
     "url": "/static/media/close-hover.35a6ccb5.svg"
+  },
+  {
+    "revision": "40fe16c637461730f383142571157050",
+    "url": "/static/media/arrow-up-hover.40fe16c6.svg"
   },
   {
     "revision": "b2138751ec3c40bb5c24fcea41aaff9d",
@@ -72,23 +68,27 @@ self.__precacheManifest = [
     "url": "/static/media/right.f1f1e485.svg"
   },
   {
-    "revision": "015af661050d2c1bd85765af9936e15d",
-    "url": "/static/media/main-background-2.015af661.jpg"
+    "revision": "36989eac374b26347085d3cfcb424b10",
+    "url": "/static/media/left.36989eac.svg"
   },
   {
-    "revision": "b4e92f70ff9bb5cd4bc01374c5311944",
-    "url": "/static/media/about-me-background.b4e92f70.jpg"
+    "revision": "120bd79de060a35d1ab88b17d18ec03e",
+    "url": "/static/media/main-background-2.120bd79d.jpg"
   },
   {
     "revision": "983dfc4e50a288c2962ed01d7fcef4ec",
     "url": "/static/media/main-background.983dfc4e.jpg"
   },
   {
-    "revision": "49641bf84eb76dc9b6e8ad993fb1892a",
-    "url": "/static/media/latest-works-background.49641bf8.jpg"
+    "revision": "425933f0725e7732b9db93e6ae723856",
+    "url": "/static/media/about-me-background.425933f0.jpg"
   },
   {
-    "revision": "aab91da4022d826861340c36c5941941",
+    "revision": "c5e25524c5922b015b692349324f714c",
+    "url": "/static/media/latest-works-background.c5e25524.jpg"
+  },
+  {
+    "revision": "a6cc29a809d936b5abe2f35cc1dad17c",
     "url": "/index.html"
   }
 ];
