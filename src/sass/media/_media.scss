@@ -27,6 +27,9 @@
 }
 
 @media screen and (max-width: 1069px) {
+    .pop-up-contacts__wrapper {
+        max-width: 90%;
+    }
 
     .main-section__heading {
         align-items: flex-start;
@@ -112,6 +115,28 @@
         &__sub-heading {
             font-size: 4rem;
         }
+    }
+
+    .lang-btns {
+        bottom: 80px;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    .pop-up-contacts__list--other-links {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .pop-up-contacts__list--item-other {
+        &:not(:last-child) {
+            margin-bottom: 2rem;
+        }
+    }
+
+    .pop-up-contacts__button {
+        text-align: center;
     }
 }
 

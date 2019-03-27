@@ -162,7 +162,7 @@ class App extends Component {
         {/* ------------------------- LATEST WORKS SECTION --------------------- */}
         <section className="latest-works-section" id="latest-works-link">
               <div className="container">
-                <h2 className="latest-works-section__heading">
+                <h2 className="latest-works-section__heading heading--2">
                   { lang === "EN" ? "Latest Works" : "Последние Работы" }
                 </h2>
               

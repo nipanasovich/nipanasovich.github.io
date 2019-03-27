@@ -28,7 +28,7 @@ const AboutMeEn = () => {
             <div className="info__briefly ">
                 <h3 className="heading--3">Briefly about me</h3>
                 <p className='info__briefly--text'>
-                    Goal-oriented, enthusiastic beginner developer without experience.
+                    Goal-oriented and enthusiastic developer without experience.
                     In leisure time I'm reading articles about web-development and translate them into russian language, some of them publish on habr.ru
                     Always improving my skills, not only in web-development but also in my daily affairs.
                     I think that productive day is the day that began in early morning. 

@@ -1,8 +1,9 @@
 import React from 'react';
+
 import phone from '../img/phone-call.svg';
 import mail from '../img/gmail.svg';
-import link from '../img/link.svg';
-import git from '../img/github.svg';
+
+
 
 const PopUpContacts = ({lang, isPopUpOpened, popUpSwitch}) => {
     return(
@@ -11,8 +12,8 @@ const PopUpContacts = ({lang, isPopUpOpened, popUpSwitch}) => {
                 <h2 className="pop-up-contacts__heading">{lang === "EN" ? "My Contacts" : "Мои Контакты"} </h2>
                 <p className="pop-up-contacts__text">
                     { lang === "EN"
-                        ? "I'm very greatful that you wanna contact with me. Choose more convenient option for yourself:"
-                        : "Я очень признателен вам, за то, что вы решили связаться со мной. Выберите наиболее подходящий вариант для вас:"
+                        ? "I'm very greatful that You wanna contact with me. Choose more convenient option for yourself:"
+                        : "Я очень признателен, что Вы решили связаться со мной. Выберите наиболее подходящий вариант для вас:"
                     }
                 </p>
 
@@ -30,22 +31,34 @@ const PopUpContacts = ({lang, isPopUpOpened, popUpSwitch}) => {
                 <h3 className="pop-up-contacts__heading--3">{ lang === "EN" ? "Other links" : "Другие ссылки" }</h3>
                 <ul className="pop-up-contacts__list--other-links">
                     <li className="pop-up-contacts__list--item-other">
-                        <a href="https://habr.com/ru/users/jintsuu/" target="_blank" rel="noopener noreferrer">
-                            <img src={link} alt="Other link 1" className="pop-up-contacts__list--image-other" />
+                        <a 
+                            className="pop-up-contacts__button--link"
+                            href="https://habr.com/ru/users/jintsuu/" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                        >
+                            <p className="pop-up-contacts__button pop-up-contacts__button--habr">habr</p>
                         </a>
-                        <span className="pop-up-contacts__list--description">habr</span>
                     </li>
                     <li className="pop-up-contacts__list--item-other" >
-                        <a href="https://spb.hh.ru/resume/bab05646ff0631cf0c0039ed1f6668716f4e30" target="_blank" rel="noopener noreferrer">
-                            <img src={link} alt="Other link 2" className="pop-up-contacts__list--image-other" />
+                        <a 
+                            className="pop-up-contacts__button--link"
+                            href="https://spb.hh.ru/resume/bab05646ff0631cf0c0039ed1f6668716f4e30" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                        >
+                            <p className="pop-up-contacts__button pop-up-contacts__button--hh">headhunter</p>
                         </a>
-                        <span className="pop-up-contacts__list--description">headhunter</span>
                     </li>
                     <li className="pop-up-contacts__list--item-other" >
-                        <a href="https://github.com/jintsuu" target="_blank" rel="noopener noreferrer">
-                            <img src={git} alt="Other link 3" className="pop-up-contacts__list--image-other" />
+                        <a 
+                            className="pop-up-contacts__button--link"
+                            href="https://github.com/jintsuu" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                        >
+                            <p className="pop-up-contacts__button pop-up-contacts__button--git">github</p>
                         </a>
-                        <span className="pop-up-contacts__list--description">github</span>
                     </li>
                 </ul>
 
