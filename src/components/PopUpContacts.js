@@ -60,6 +60,17 @@ const PopUpContacts = ({lang, isPopUpOpened, popUpSwitch}) => {
                             <p className="pop-up-contacts__button pop-up-contacts__button--git">github</p>
                         </a>
                     </li>
+                    <li className="pop-up-contacts__list--item-other" >
+                        <a 
+                            className="pop-up-contacts__button--link"
+                            href="https://www.linkedin.com/in/nikita-panasovich-079b6b174/" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                        >
+                            <p className="pop-up-contacts__button pop-up-contacts__button--linkedin">LinkedIn</p>
+                        </a>
+                    </li>
+
                 </ul>
 
                 <button className="pop-up-contacts__button-close" onClick = {() => popUpSwitch()}></button>
