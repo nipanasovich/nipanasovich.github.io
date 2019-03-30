@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/arrow-up.9e96ea99.svg"
   },
   {
-    "revision": "424018608991f109b4bb",
-    "url": "/static/css/main.ec2195db.chunk.css"
+    "revision": "3fd34792b38316a04108",
+    "url": "/static/css/main.4819a291.chunk.css"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -40,20 +40,20 @@ self.__precacheManifest = [
     "url": "/static/media/shoe-shop.83527bde.jpg"
   },
   {
-    "revision": "424018608991f109b4bb",
-    "url": "/static/js/main.2d110c2c.chunk.js"
+    "revision": "3fd34792b38316a04108",
+    "url": "/static/js/main.4c578052.chunk.js"
   },
   {
     "revision": "40fe16c637461730f383142571157050",
     "url": "/static/media/arrow-up-hover.40fe16c6.svg"
   },
   {
-    "revision": "35a6ccb5ed555dd6c31878ae02c9fd0d",
-    "url": "/static/media/close-hover.35a6ccb5.svg"
-  },
-  {
     "revision": "36989eac374b26347085d3cfcb424b10",
     "url": "/static/media/left.36989eac.svg"
+  },
+  {
+    "revision": "35a6ccb5ed555dd6c31878ae02c9fd0d",
+    "url": "/static/media/close-hover.35a6ccb5.svg"
   },
   {
     "revision": "b2138751ec3c40bb5c24fcea41aaff9d",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/static/media/about-me-background.425933f0.jpg"
   },
   {
-    "revision": "a267fad9d9351d9c9b2a5e20c9308cf6",
+    "revision": "20594c172bb87868bf417d3b20a062d7",
     "url": "/index.html"
   }
 ];
