@@ -6,7 +6,7 @@ export const works = [
         id: 1,
         name: "Natours",
         descriptionRU: "Тест 1",
-        descriptionEN: "Test 1",
+        descriptionEN: "Training web-page created with float grid.",
         gitLink: "https://www.github.com",
         img: natours,
     },

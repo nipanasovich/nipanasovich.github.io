@@ -4,7 +4,7 @@ import WorkCard from './WorkCard';
 
 import { works } from "../works";
 
-const LatestWorks = ({ lang, cardId, changeCard }) => {
+const LatestWorks = ({ lang, changeCard }) => {
     return(
         <div className="latest-works">
             <button 
@@ -22,6 +22,7 @@ const LatestWorks = ({ lang, cardId, changeCard }) => {
                                 description={ lang === "EN" ? item.descriptionEN :  item.descriptionRU }
                                 link={ item.gitLink } 
                                 image={ item.img }
+                                lang={ lang }
                             />
                         );
                     } )

@@ -64,20 +64,19 @@ class App extends Component {
 
   changeCard = (direction, length) => {
     let id = this.state.cardId;
-    console.log(length);
     if(direction === "right") {
-      this.state.cardId === (length) 
-        ? this.setState({ cardId: 1 }) 
-        : this.setState({ cardId: ++id });
+      id === length 
+        ? id = 1 
+        : ++id;
     } else if(direction === "left") {
-      this.state.cardId === 1 
-        ? this.setState({ cardId: (length) })
-        : this.setState({ cardId: --id });
+      id === 1 
+        ? id = length
+        : --id;
     }
-    console.log(id, this.state.cardId);
-    let element = document.querySelector(`#card-${this.state.cardId}`);
-    element.scrollIntoView();
+    this.scrollTo(`#card-${id}`);
+    this.setState({ cardId: id});
   }
+  
 
   changeHeaderState = () => {
     this.setState({
