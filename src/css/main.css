@@ -851,6 +851,9 @@ html {
   .about-me__info {
     flex-basis: 50%;
   }
+  .pop-up-contacts__wrapper {
+    max-width: 80%;
+  }
 }
 
 @media screen and (max-width: 1250px) {
@@ -869,7 +872,18 @@ html {
 
 @media screen and (max-width: 1069px) {
   .pop-up-contacts__wrapper {
-    max-width: 90%;
+    max-width: 97%;
+  }
+  .card__description {
+    height: 40rem;
+    pointer-events: none;
+  }
+  .card__link--wrapper {
+    display: flex;
+    align-items: center;
+  }
+  .card__text {
+    display: block;
   }
   .main-section__heading {
     align-items: flex-start;
@@ -893,6 +907,19 @@ html {
   }
   .latest-works__btn {
     display: none;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .pop-up-contacts__list--other-links {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .pop-up-contacts__list--item-other:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+  .pop-up-contacts__button {
+    text-align: center;
   }
 }
 
@@ -938,16 +965,6 @@ html {
 }
 
 @media screen and (max-width: 550px) {
-  .pop-up-contacts__list--other-links {
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  .pop-up-contacts__list--item-other:not(:last-child) {
-    margin-bottom: 2rem;
-  }
-  .pop-up-contacts__button {
-    text-align: center;
-  }
   .main-section__heading {
     align-items: flex-start;
   }

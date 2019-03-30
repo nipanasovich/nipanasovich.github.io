@@ -8,6 +8,10 @@
     .about-me__info {
         flex-basis: 50%; 
     }
+
+    .pop-up-contacts__wrapper {
+        max-width: 80%;
+    }
 }
 
 @media screen and (max-width: 1250px) {
@@ -28,7 +32,21 @@
 
 @media screen and (max-width: 1069px) {
     .pop-up-contacts__wrapper {
-        max-width: 90%;
+        max-width: 97%;
+    }
+
+    .card {
+        &__description {
+            height: 40rem;
+            pointer-events: none;
+        }
+        &__link--wrapper {
+            display: flex;
+            align-items: center;
+        }
+        &__text {
+            display: block;
+        }
     }
 
     .main-section__heading {
@@ -64,6 +82,22 @@
     }
 }
 
+@media screen and (max-width: 810px) {
+    .pop-up-contacts__list--other-links {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .pop-up-contacts__list--item-other {
+        &:not(:last-child) {
+            margin-bottom: 2rem;
+        }
+    }
+
+    .pop-up-contacts__button {
+        text-align: center;
+    }
+}
 
 @media screen and (max-width: 700px) {
     .container {
@@ -124,21 +158,6 @@
 }
 
 @media screen and (max-width: 550px) {
-    .pop-up-contacts__list--other-links {
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-    .pop-up-contacts__list--item-other {
-        &:not(:last-child) {
-            margin-bottom: 2rem;
-        }
-    }
-
-    .pop-up-contacts__button {
-        text-align: center;
-    }
-
     .main-section {
         &__heading {
             align-items: flex-start;
