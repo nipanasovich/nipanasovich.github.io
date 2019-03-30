@@ -4,20 +4,24 @@ self.__precacheManifest = [
     "url": "/static/media/arrow-up.9e96ea99.svg"
   },
   {
-    "revision": "ef6053af704dba11a1b1",
-    "url": "/static/css/main.7bfc1e7f.chunk.css"
+    "revision": "424018608991f109b4bb",
+    "url": "/static/css/main.ec2195db.chunk.css"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "b7dd82a1fcd8b099b02d",
-    "url": "/static/js/2.6e2b3dbd.chunk.js"
+    "revision": "1851afaf3ea74457315a",
+    "url": "/static/js/2.0673cbf3.chunk.js"
   },
   {
     "revision": "9f4791d03d75a3db0857a4b5654ebed7",
     "url": "/static/media/photo.9f4791d0.jpg"
+  },
+  {
+    "revision": "db0721b19bf1b047866172744342786f",
+    "url": "/static/media/github-color.db0721b1.svg"
   },
   {
     "revision": "8b2f97f7283bdeb39650b0f5a7a065bd",
@@ -36,36 +40,28 @@ self.__precacheManifest = [
     "url": "/static/media/shoe-shop.83527bde.jpg"
   },
   {
-    "revision": "db0721b19bf1b047866172744342786f",
-    "url": "/static/media/github-color.db0721b1.svg"
-  },
-  {
-    "revision": "ef6053af704dba11a1b1",
-    "url": "/static/js/main.b9f29bca.chunk.js"
+    "revision": "424018608991f109b4bb",
+    "url": "/static/js/main.2d110c2c.chunk.js"
   },
   {
     "revision": "40fe16c637461730f383142571157050",
     "url": "/static/media/arrow-up-hover.40fe16c6.svg"
   },
   {
-    "revision": "b2138751ec3c40bb5c24fcea41aaff9d",
-    "url": "/static/media/close.b2138751.svg"
+    "revision": "35a6ccb5ed555dd6c31878ae02c9fd0d",
+    "url": "/static/media/close-hover.35a6ccb5.svg"
   },
   {
     "revision": "36989eac374b26347085d3cfcb424b10",
     "url": "/static/media/left.36989eac.svg"
   },
   {
-    "revision": "35a6ccb5ed555dd6c31878ae02c9fd0d",
-    "url": "/static/media/close-hover.35a6ccb5.svg"
+    "revision": "b2138751ec3c40bb5c24fcea41aaff9d",
+    "url": "/static/media/close.b2138751.svg"
   },
   {
     "revision": "f1f1e485ac728c93034fb4df818eccae",
     "url": "/static/media/right.f1f1e485.svg"
-  },
-  {
-    "revision": "425933f0725e7732b9db93e6ae723856",
-    "url": "/static/media/about-me-background.425933f0.jpg"
   },
   {
     "revision": "120bd79de060a35d1ab88b17d18ec03e",
@@ -76,7 +72,11 @@ self.__precacheManifest = [
     "url": "/static/media/latest-works-background.c5e25524.jpg"
   },
   {
-    "revision": "022eeedb7e4177185186253fbbd37bff",
+    "revision": "425933f0725e7732b9db93e6ae723856",
+    "url": "/static/media/about-me-background.425933f0.jpg"
+  },
+  {
+    "revision": "a267fad9d9351d9c9b2a5e20c9308cf6",
     "url": "/index.html"
   }
 ];
