@@ -1,20 +1,20 @@
 {
-  "main.css": "/static/css/main.4819a291.chunk.css",
-  "main.js": "/static/js/main.4c578052.chunk.js",
-  "main.js.map": "/static/js/main.4c578052.chunk.js.map",
+  "main.css": "/static/css/main.29f3868f.chunk.css",
+  "main.js": "/static/js/main.6753b1ea.chunk.js",
+  "main.js.map": "/static/js/main.6753b1ea.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
   "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
   "static/js/2.0673cbf3.chunk.js": "/static/js/2.0673cbf3.chunk.js",
   "static/js/2.0673cbf3.chunk.js.map": "/static/js/2.0673cbf3.chunk.js.map",
   "index.html": "/index.html",
-  "precache-manifest.fcfaf98e62d6953308dd1ed5708e7d02.js": "/precache-manifest.fcfaf98e62d6953308dd1ed5708e7d02.js",
+  "precache-manifest.5c381952945eced2fd45c62f177dc05e.js": "/precache-manifest.5c381952945eced2fd45c62f177dc05e.js",
   "service-worker.js": "/service-worker.js",
-  "static/css/main.4819a291.chunk.css.map": "/static/css/main.4819a291.chunk.css.map",
+  "static/css/main.29f3868f.chunk.css.map": "/static/css/main.29f3868f.chunk.css.map",
   "static/media/main.css": "/static/media/right.f1f1e485.svg",
   "static/media/github-color.svg": "/static/media/github-color.db0721b1.svg",
   "static/media/gmail.svg": "/static/media/gmail.06d24dd1.svg",
-  "static/media/natours.jpg": "/static/media/natours.e6305b90.jpg",
+  "static/media/natours.jpg": "/static/media/natours.80b38484.jpg",
   "static/media/phone-call.svg": "/static/media/phone-call.8b2f97f7.svg",
-  "static/media/photo.jpg": "/static/media/photo.9f4791d0.jpg",
-  "static/media/shoe-shop.jpg": "/static/media/shoe-shop.83527bde.jpg"
+  "static/media/photo.jpg": "/static/media/photo.4fd9592e.jpg",
+  "static/media/shoe-shop.jpg": "/static/media/shoe-shop.d5764a08.jpg"
 }
