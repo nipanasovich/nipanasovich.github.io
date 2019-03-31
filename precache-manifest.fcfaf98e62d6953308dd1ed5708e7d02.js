@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/static/media/latest-works-background.c5e25524.jpg"
   },
   {
-    "revision": "2b99ed0d2ca316f4840d2479941500d0",
+    "revision": "7c58469f32bccf673381146125c1739c",
     "url": "/index.html"
   }
 ];
