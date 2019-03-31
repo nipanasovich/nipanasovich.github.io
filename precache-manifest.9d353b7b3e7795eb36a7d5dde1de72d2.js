@@ -48,16 +48,16 @@ self.__precacheManifest = [
     "url": "/static/media/arrow-up-hover.40fe16c6.svg"
   },
   {
-    "revision": "36989eac374b26347085d3cfcb424b10",
-    "url": "/static/media/left.36989eac.svg"
-  },
-  {
     "revision": "35a6ccb5ed555dd6c31878ae02c9fd0d",
     "url": "/static/media/close-hover.35a6ccb5.svg"
   },
   {
     "revision": "b2138751ec3c40bb5c24fcea41aaff9d",
     "url": "/static/media/close.b2138751.svg"
+  },
+  {
+    "revision": "36989eac374b26347085d3cfcb424b10",
+    "url": "/static/media/left.36989eac.svg"
   },
   {
     "revision": "f1f1e485ac728c93034fb4df818eccae",
@@ -68,15 +68,15 @@ self.__precacheManifest = [
     "url": "/static/media/main-background-2.120bd79d.jpg"
   },
   {
-    "revision": "c5e25524c5922b015b692349324f714c",
-    "url": "/static/media/latest-works-background.c5e25524.jpg"
-  },
-  {
     "revision": "425933f0725e7732b9db93e6ae723856",
     "url": "/static/media/about-me-background.425933f0.jpg"
   },
   {
-    "revision": "20594c172bb87868bf417d3b20a062d7",
+    "revision": "c5e25524c5922b015b692349324f714c",
+    "url": "/static/media/latest-works-background.c5e25524.jpg"
+  },
+  {
+    "revision": "2b99ed0d2ca316f4840d2479941500d0",
     "url": "/index.html"
   }
 ];
