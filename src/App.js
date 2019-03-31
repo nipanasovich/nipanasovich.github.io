@@ -59,7 +59,6 @@ class App extends Component {
     this.setState({
       isLoaded: true,
     });
-    console.log('im loaded');
   }
 
   changeCard = (direction, length) => {
