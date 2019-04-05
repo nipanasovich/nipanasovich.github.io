@@ -1,20 +1,20 @@
 {
   "main.css": "/static/css/main.737bcfdb.chunk.css",
-  "main.js": "/static/js/main.20cd4530.chunk.js",
-  "main.js.map": "/static/js/main.20cd4530.chunk.js.map",
+  "main.js": "/static/js/main.3f476b81.chunk.js",
+  "main.js.map": "/static/js/main.3f476b81.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
   "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
   "static/js/2.0673cbf3.chunk.js": "/static/js/2.0673cbf3.chunk.js",
   "static/js/2.0673cbf3.chunk.js.map": "/static/js/2.0673cbf3.chunk.js.map",
   "index.html": "/index.html",
-  "precache-manifest.1e75bc0fc35880e3ac716014c8bba23b.js": "/precache-manifest.1e75bc0fc35880e3ac716014c8bba23b.js",
+  "precache-manifest.13ddfbc5e3a0ae4de646d97d8a6a6c8f.js": "/precache-manifest.13ddfbc5e3a0ae4de646d97d8a6a6c8f.js",
   "service-worker.js": "/service-worker.js",
   "static/css/main.737bcfdb.chunk.css.map": "/static/css/main.737bcfdb.chunk.css.map",
   "static/media/main.css": "/static/media/right.f1f1e485.svg",
+  "static/media/beryoga.jpg": "/static/media/beryoga.ec18ce4e.jpg",
   "static/media/github-color.svg": "/static/media/github-color.db0721b1.svg",
   "static/media/gmail.svg": "/static/media/gmail.06d24dd1.svg",
   "static/media/natours.jpg": "/static/media/natours.80b38484.jpg",
   "static/media/phone-call.svg": "/static/media/phone-call.8b2f97f7.svg",
-  "static/media/photo.jpg": "/static/media/photo.4fd9592e.jpg",
-  "static/media/shoe-shop.jpg": "/static/media/shoe-shop.d5764a08.jpg"
+  "static/media/photo.jpg": "/static/media/photo.4fd9592e.jpg"
 }

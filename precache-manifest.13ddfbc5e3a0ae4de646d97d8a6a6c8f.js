@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "9e96ea995ce82644261ec8ee786a624d",
-    "url": "/static/media/arrow-up.9e96ea99.svg"
+    "revision": "40fe16c637461730f383142571157050",
+    "url": "/static/media/arrow-up-hover.40fe16c6.svg"
   },
   {
-    "revision": "3e81578a444f50026993",
+    "revision": "7924496cac811f5b506f",
     "url": "/static/css/main.737bcfdb.chunk.css"
   },
   {
@@ -36,20 +36,12 @@ self.__precacheManifest = [
     "url": "/static/media/natours.80b38484.jpg"
   },
   {
-    "revision": "d5764a084c309432f0372eb28a1b2fe6",
-    "url": "/static/media/shoe-shop.d5764a08.jpg"
+    "revision": "ec18ce4e2251814072a2532bc3525f3d",
+    "url": "/static/media/beryoga.ec18ce4e.jpg"
   },
   {
-    "revision": "3e81578a444f50026993",
-    "url": "/static/js/main.20cd4530.chunk.js"
-  },
-  {
-    "revision": "35a6ccb5ed555dd6c31878ae02c9fd0d",
-    "url": "/static/media/close-hover.35a6ccb5.svg"
-  },
-  {
-    "revision": "40fe16c637461730f383142571157050",
-    "url": "/static/media/arrow-up-hover.40fe16c6.svg"
+    "revision": "7924496cac811f5b506f",
+    "url": "/static/js/main.3f476b81.chunk.js"
   },
   {
     "revision": "b2138751ec3c40bb5c24fcea41aaff9d",
@@ -60,12 +52,16 @@ self.__precacheManifest = [
     "url": "/static/media/left.36989eac.svg"
   },
   {
+    "revision": "35a6ccb5ed555dd6c31878ae02c9fd0d",
+    "url": "/static/media/close-hover.35a6ccb5.svg"
+  },
+  {
     "revision": "f1f1e485ac728c93034fb4df818eccae",
     "url": "/static/media/right.f1f1e485.svg"
   },
   {
-    "revision": "3aa76724b1196942f5f3c5835d56611d",
-    "url": "/static/media/main-background-2.3aa76724.jpg"
+    "revision": "9e96ea995ce82644261ec8ee786a624d",
+    "url": "/static/media/arrow-up.9e96ea99.svg"
   },
   {
     "revision": "76682d8f7760a711ff8b28e64acf580e",
@@ -76,7 +72,11 @@ self.__precacheManifest = [
     "url": "/static/media/latest-works-background.4f23f8e0.jpg"
   },
   {
-    "revision": "efc828c9dba1a104e519051c7cb72c60",
+    "revision": "3aa76724b1196942f5f3c5835d56611d",
+    "url": "/static/media/main-background-2.3aa76724.jpg"
+  },
+  {
+    "revision": "a99617bac4655fdc99758a8991d2a5c9",
     "url": "/index.html"
   }
 ];
