@@ -2,7 +2,7 @@ import React from 'react';
 
 import git from '../img/github-color.svg';
 
-const WorkCard = ({ lang, id, name, description, link, image }) => {
+const WorkCard = ({ lang, id, name, description, gitLink, image, link }) => {
     return(
         <div className="card" id={`card-${id}`}>
             <div className="card__img--wrapper">
@@ -19,7 +19,7 @@ const WorkCard = ({ lang, id, name, description, link, image }) => {
                         }
                     </p>
                     <a 
-                        href={ link } 
+                        href={ gitLink } 
                         className="card__link" 
                         target="_blank" 
                         rel="noopener noreferrer"
@@ -27,6 +27,23 @@ const WorkCard = ({ lang, id, name, description, link, image }) => {
                         <img className="card__link--img" src={ git } alt="Git Link" />
                     </a>
                 </div>
+
+                <div className="card__link--wrapper">
+                    <p className="card__link--description">
+                        { lang === "EN" 
+                            ? "Web-page:"
+                            : "Ссылка на сайт:"
+                        }
+                    </p>
+                    <a 
+                        href={ link } 
+                        className="card__link" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                    >
+                        <img className="card__link--img" src={ git } alt="Git Link" />
+                    </a>
+                </div>  
             </div>
         </div>
     );

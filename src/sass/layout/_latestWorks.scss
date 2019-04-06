@@ -134,6 +134,8 @@
 
         &--img {
             transition: all .5s;
+            width: 4rem;
+            height: 4rem;
             &:hover {
                 transform: scale(1.2);
             }

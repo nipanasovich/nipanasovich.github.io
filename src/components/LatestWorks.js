@@ -20,9 +20,10 @@ const LatestWorks = ({ lang, changeCard }) => {
                                 key={ item.id } 
                                 name={ item.name } 
                                 description={ lang === "EN" ? item.descriptionEN :  item.descriptionRU }
-                                link={ item.gitLink } 
+                                gitLink={ item.gitLink } 
                                 image={ item.img }
                                 lang={ lang }
+                                link={ item.link }
                             />
                         );
                     } )
