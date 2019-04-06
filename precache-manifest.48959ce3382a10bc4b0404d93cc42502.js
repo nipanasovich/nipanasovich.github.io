@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/arrow-up.9e96ea99.svg"
   },
   {
-    "revision": "defb71e61b56fc8f6572",
-    "url": "/static/css/main.e44603a3.chunk.css"
+    "revision": "2a48a62f29cd0d12d0d8",
+    "url": "/static/css/main.ae438e13.chunk.css"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -40,12 +40,8 @@ self.__precacheManifest = [
     "url": "/static/media/beryoga.ec18ce4e.jpg"
   },
   {
-    "revision": "defb71e61b56fc8f6572",
-    "url": "/static/js/main.cea87730.chunk.js"
-  },
-  {
-    "revision": "40fe16c637461730f383142571157050",
-    "url": "/static/media/arrow-up-hover.40fe16c6.svg"
+    "revision": "2a48a62f29cd0d12d0d8",
+    "url": "/static/js/main.a5717019.chunk.js"
   },
   {
     "revision": "35a6ccb5ed555dd6c31878ae02c9fd0d",
@@ -56,27 +52,31 @@ self.__precacheManifest = [
     "url": "/static/media/close.b2138751.svg"
   },
   {
-    "revision": "36989eac374b26347085d3cfcb424b10",
-    "url": "/static/media/left.36989eac.svg"
+    "revision": "40fe16c637461730f383142571157050",
+    "url": "/static/media/arrow-up-hover.40fe16c6.svg"
   },
   {
     "revision": "f1f1e485ac728c93034fb4df818eccae",
     "url": "/static/media/right.f1f1e485.svg"
   },
   {
-    "revision": "76682d8f7760a711ff8b28e64acf580e",
-    "url": "/static/media/about-me-background.76682d8f.jpg"
+    "revision": "36989eac374b26347085d3cfcb424b10",
+    "url": "/static/media/left.36989eac.svg"
   },
   {
     "revision": "3aa76724b1196942f5f3c5835d56611d",
     "url": "/static/media/main-background-2.3aa76724.jpg"
   },
   {
+    "revision": "76682d8f7760a711ff8b28e64acf580e",
+    "url": "/static/media/about-me-background.76682d8f.jpg"
+  },
+  {
     "revision": "4f23f8e0f4b443a047cfe05dc5d19536",
     "url": "/static/media/latest-works-background.4f23f8e0.jpg"
   },
   {
-    "revision": "6c119888b9da5d4768cc25cbdf77b491",
+    "revision": "843596c30ad7e7069cd9686d92bb9096",
     "url": "/index.html"
   }
 ];
