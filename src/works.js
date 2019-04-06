@@ -14,7 +14,7 @@ export const works = [
     {
         id: 2,
         name: "BerYoga",
-        descriptionRU: "Тренировочный макет на flex'ах. На данный момент адаптив в разработке.",
+        descriptionRU: "Тренировочный макет на flex'ах.",
         descriptionEN: "Training web-page created with flexbox.",
         gitLink: "https://www.github.com/jintsuu/beryoga-website",
         link: "https://jintsuu.github.io/beryoga-website/",
