@@ -37,12 +37,13 @@
     // LOW RESOLUTION VERSION
     &--low {
         position: fixed;
+        width: 100%;
         top: 2rem;
         display: none;
-        &__button {
+        &__button, &__button--close {
             position: absolute;
-            left: -10vw;
-            top: -1vh;
+            right: 20%;
+            top: 1rem;
             z-index: 18;
             border: none;
             border-radius: 50%;
@@ -54,7 +55,7 @@
             align-items: center;
             justify-content: space-around;
             padding: 1.7rem 0;
-            transition: all .7s;
+            transition: all .5s;
             box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.671);
 
             &-line {
@@ -72,22 +73,7 @@
             }
 
             &--close {
-                position: absolute;
-                left: 13vw;
-                top: -1rem;
-                z-index: 18;
-                border: none;
-                border-radius: 50%;
-                height: 6rem;
-                width: 6rem;
-                background: black;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: space-around;
-                padding: 1.7rem 0;
-                transition: all .7s;
-                box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.671);
+                right: 63%;
                 &:hover {
                     transform: scale(1.1);
                     background: rgb(44, 44, 44);
@@ -101,11 +87,11 @@
         &__list, &__list--active {
             position: absolute;
             top: -3rem;
-            left: -100vw;
+            right: -100vw;
             opacity: 0;
-            min-width: 50vw;
+            width: 60%;
             height: 110vh;
-            padding: 6rem 3rem 3rem 20vw;
+            padding: 6rem 10% 3rem 10rem;
             list-style: none;
             display: flex;
             flex-direction: column;
@@ -118,7 +104,7 @@
             transition: all .5s;
 
             &--active {
-                left: -30vw;
+                right: 10%;
                 opacity: 1;
             }
             
@@ -126,6 +112,7 @@
             &-item {
                 padding: .5rem;
                 border-radius: 5px;
+                margin-bottom: 3rem;
                 &:hover {
                     cursor: pointer;
                     background: rgb(61, 61, 61);
@@ -138,6 +125,7 @@
 
 #line-1 {
     transform: rotate(45deg) translateY(7px) translateX(8px);
+    background: white;
     
 }
 
@@ -147,4 +135,5 @@
 
 #line-3 {
     transform: rotate(-45deg) translateY(-5px) translateX(6px);
+    background: white;
 }

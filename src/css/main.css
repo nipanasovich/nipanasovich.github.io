@@ -56,14 +56,15 @@ html {
 
 .header--low {
   position: fixed;
+  width: 100%;
   top: 2rem;
   display: none;
 }
 
-.header--low__button {
+.header--low__button, .header--low__button--close {
   position: absolute;
-  left: -10vw;
-  top: -1vh;
+  right: 20%;
+  top: 1rem;
   z-index: 18;
   border: none;
   border-radius: 50%;
@@ -75,11 +76,11 @@ html {
   align-items: center;
   justify-content: space-around;
   padding: 1.7rem 0;
-  transition: all .7s;
+  transition: all .5s;
   box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.671);
 }
 
-.header--low__button-line {
+.header--low__button-line, .header--low__button--close-line {
   width: 3rem;
   border: 2px solid white;
   border-radius: 10px;
@@ -87,32 +88,17 @@ html {
   transition: all .5s;
 }
 
-.header--low__button:hover {
+.header--low__button:hover, .header--low__button--close:hover {
   transform: scale(1.1);
   background: #2c2c2c;
   cursor: pointer;
 }
 
-.header--low__button--close {
-  position: absolute;
-  left: 13vw;
-  top: -1rem;
-  z-index: 18;
-  border: none;
-  border-radius: 50%;
-  height: 6rem;
-  width: 6rem;
-  background: black;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  padding: 1.7rem 0;
-  transition: all .7s;
-  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.671);
+.header--low__button--close, .header--low__button--close--close {
+  right: 63%;
 }
 
-.header--low__button--close:hover {
+.header--low__button--close:hover, .header--low__button--close--close:hover {
   transform: scale(1.1);
   background: #2c2c2c;
   cursor: pointer;
@@ -121,11 +107,11 @@ html {
 .header--low__list, .header--low__list--active {
   position: absolute;
   top: -3rem;
-  left: -100vw;
+  right: -100vw;
   opacity: 0;
-  min-width: 50vw;
+  width: 60%;
   height: 110vh;
-  padding: 6rem 3rem 3rem 20vw;
+  padding: 6rem 10% 3rem 10rem;
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -139,13 +125,14 @@ html {
 }
 
 .header--low__list--active, .header--low__list--active--active {
-  left: -30vw;
+  right: 10%;
   opacity: 1;
 }
 
 .header--low__list-item, .header--low__list--active-item {
   padding: .5rem;
   border-radius: 5px;
+  margin-bottom: 3rem;
 }
 
 .header--low__list-item:hover, .header--low__list--active-item:hover {
@@ -156,6 +143,7 @@ html {
 
 #line-1 {
   transform: rotate(45deg) translateY(7px) translateX(8px);
+  background: white;
 }
 
 #line-2 {
@@ -164,6 +152,7 @@ html {
 
 #line-3 {
   transform: rotate(-45deg) translateY(-5px) translateX(6px);
+  background: white;
 }
 
 .App-Loading {
@@ -916,6 +905,15 @@ html {
   }
 }
 
+@media screen and (max-width: 950px) {
+  .header--low__button--close {
+    right: 60%;
+  }
+  .header--low__list-item {
+    margin-bottom: 3rem;
+  }
+}
+
 @media screen and (max-width: 810px) {
   .pop-up-contacts__list--other-links {
     flex-direction: column;
@@ -935,14 +933,14 @@ html {
     padding: 0 1rem;
   }
   .header--low__button {
-    left: 2vw;
+    right: 5%;
   }
   .header--low__button--close {
-    left: 33vw;
+    right: 48%;
   }
   .header--low__list--active {
-    left: -3vw;
-    padding-left: 5vw;
+    right: -3%;
+    padding-right: 5%;
     padding-top: 10rem;
   }
   #line-1 {
@@ -974,26 +972,32 @@ html {
   .main-section__heading {
     align-items: flex-start;
   }
+  .header--low__button {
+    right: 5%;
+  }
+  .header--low__button--close {
+    right: 45%;
+  }
 }
 
 @media screen and (max-width: 420px) {
-  .header--low__button {
-    left: 2vw;
-  }
   .header--low__button--close {
-    left: 55vw;
+    right: 52%;
   }
-  .header--low__list--active {
-    left: -50vw;
-    padding-left: 60vw;
-    padding-top: 10rem;
-    min-width: 120vw;
+  .header--low__list, .header--low__list--active {
+    width: 70%;
   }
 }
 
 @media screen and (max-width: 330px) {
   html {
     font-size: 45%;
+  }
+  #line-1 {
+    transform: rotate(45deg) translateY(5px) translateX(5px);
+  }
+  #line-3 {
+    transform: rotate(-45deg) translateY(-4px) translateX(4px);
   }
 }
 

@@ -1,10 +1,10 @@
-@media screen and (max-width:1800px) {
+@media screen and (max-width: 1800px) {
     .about-me__info {
         flex-basis: 60%; 
     }
 }
 
-@media screen and (max-width:1350px) {
+@media screen and (max-width: 1350px) {
     .about-me__info {
         flex-basis: 50%; 
     }
@@ -87,6 +87,20 @@
     }
 }
 
+@media screen and (max-width: 950px) {
+    .header--low__button--close {
+        right: 60%;
+    }
+
+    .header--low {  
+        &__list {
+            &-item {
+                margin-bottom: 3rem;
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 810px) {
     .pop-up-contacts__list--other-links {
         flex-direction: column;
@@ -112,16 +126,16 @@
 
     .header--low {
         &__button {
-            left: 2vw;
+            right: 5%;
             &--close {
-                left: 33vw;
+                right: 48%;
             }    
         }
 
         &__list {
             &--active {
-                left: -3vw;
-                padding-left: 5vw;
+                right: -3%;
+                padding-right: 5%;
                 padding-top: 10rem;
             }
         }
@@ -168,25 +182,26 @@
             align-items: flex-start;
         }
     }
+
+    .header--low {
+        &__button {
+            &--close {
+                right: 45%;
+            }
+            right: 5%;
+        }
+    }
 }
 
 @media screen and (max-width: 420px) {
     .header--low {
         &__button {
-            left: 2vw;
             &--close {
-                left: 55vw;
+                right: 52%;
             }    
         }
-
-        &__list {
-            
-            &--active {
-                left: -50vw;
-                padding-left: 60vw;
-                padding-top: 10rem;
-                min-width: 120vw;
-            }
+        &__list, &__list--active {
+            width: 70%;
         }
     }
 
@@ -197,6 +212,16 @@
     html {
         font-size: 45%;
     }
+
+    #line-1 {
+        transform: rotate(45deg) translateY(5px) translateX(5px);
+    }
+    
+    #line-3 {
+        transform: rotate(-45deg) translateY(-4px) translateX(4px);
+    }
+
+    
 }
 
 @media screen and (max-height: 550px) {
@@ -214,3 +239,4 @@
         font-size: 5rem;
     }
 }
+

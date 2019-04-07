@@ -5,8 +5,8 @@ export const works = [
     {
         id: 1,
         name: "Natours",
-        descriptionRU: "Тренировочный макет на float'ах сделанный на курсе по css. На данный момент адаптив в разработке.",
-        descriptionEN: "Training web-page created with float grid during a css-course. At the moment responsive version in process",
+        descriptionRU: "Тренировочный макет на float'ах сделанный на курсе по css.",
+        descriptionEN: "Training web-page created with float grid during a css-course.",
         gitLink: "https://github.com/jintsuu/natours",
         link: "https://jintsuu.github.io/natours/",
         img: natours,
