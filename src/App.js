@@ -14,22 +14,21 @@ import git from './img/github-color.svg';
 import './css/main.css';
 
 class App extends Component {
-  constructor() {
-    super();
-    this.state = {
-      lang: 'EN',
-      isLoaded: false,
-      isScrolled: false,
-      isPopUpOpened: false,
-      isHeaderOpened: false,
-      cardId: 1,
-    }
+  state = {
+    lang: 'EN',
+    isLoaded: false,
+    isScrolled: false,
+    isPopUpOpened: false,
+    isHeaderOpened: false,
+    cardId: 1,
   }
 
   componentDidMount() {
     window.addEventListener('scroll', this.changeHeaderClass);
+  }
 
-    
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.changeHeaderClass);
   }
 
   langChange = (language) =>{
@@ -62,15 +61,11 @@ class App extends Component {
   }
 
   changeCard = (direction, length) => {
-    let id = this.state.cardId;
+    let { cardId: id } = this.state;
     if(direction === "right") {
-      id === length 
-        ? id = 1 
-        : ++id;
+      id === length ? id = 1 : ++id;
     } else if(direction === "left") {
-      id === 1 
-        ? id = length
-        : --id;
+      id === 1 ? id = length : --id;
     }
     this.scrollTo(`#card-${id}`);
     this.setState({ cardId: id});
@@ -84,7 +79,7 @@ class App extends Component {
   }
 
   render() {
-    const {lang, isLoaded, isScrolled, isPopUpOpened, isHeaderOpened} = this.state; 
+    const { lang, isLoaded, isScrolled, isPopUpOpened, isHeaderOpened } = this.state; 
 
     return (
       <div className={ isLoaded ? "App" : "App-Loading" } onLoad={ this.onLoad }>
