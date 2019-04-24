@@ -49,9 +49,9 @@ class App extends Component {
   }
 
   popUpSwitch = () => {
-    this.setState({
-      isPopUpOpened: !this.state.isPopUpOpened
-    });
+    this.setState(({ isPopUpOpened }) => ({
+      isPopUpOpened: !isPopUpOpened,
+    }));
   }
 
   onLoad = () => {
@@ -62,10 +62,15 @@ class App extends Component {
 
   changeCard = (direction, length) => {
     let { cardId: id } = this.state;
-    if(direction === "right") {
-      id === length ? id = 1 : ++id;
-    } else if(direction === "left") {
-      id === 1 ? id = length : --id;
+    switch(direction) {
+      case "right":
+        id === length ? id = 1 : ++id;
+        break;
+      case "left":
+        id === 1 ? id = length : --id;
+        break;
+      default: 
+        break;
     }
     this.scrollTo(`#card-${id}`);
     this.setState({ cardId: id});
@@ -73,9 +78,9 @@ class App extends Component {
   
 
   changeHeaderState = () => {
-    this.setState({
-      isHeaderOpened: !this.state.isHeaderOpened,
-    });
+    this.setState(({ isHeaderOpened }) => ({
+      isHeaderOpened: !isHeaderOpened,
+    }));
   }
 
   render() {
