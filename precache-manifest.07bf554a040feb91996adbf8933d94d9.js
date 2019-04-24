@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "35a6ccb5ed555dd6c31878ae02c9fd0d",
-    "url": "/static/media/close-hover.35a6ccb5.svg"
+    "revision": "9e96ea995ce82644261ec8ee786a624d",
+    "url": "/static/media/arrow-up.9e96ea99.svg"
   },
   {
-    "revision": "619c1177d6caaf8b46a5",
+    "revision": "9d6afabfed792627c9f7",
     "url": "/static/css/main.3a0c1442.chunk.css"
   },
   {
@@ -40,24 +40,24 @@ self.__precacheManifest = [
     "url": "/static/media/beryoga.ec18ce4e.jpg"
   },
   {
-    "revision": "619c1177d6caaf8b46a5",
-    "url": "/static/js/main.141f1b89.chunk.js"
-  },
-  {
-    "revision": "9e96ea995ce82644261ec8ee786a624d",
-    "url": "/static/media/arrow-up.9e96ea99.svg"
+    "revision": "9d6afabfed792627c9f7",
+    "url": "/static/js/main.50ee7750.chunk.js"
   },
   {
     "revision": "40fe16c637461730f383142571157050",
     "url": "/static/media/arrow-up-hover.40fe16c6.svg"
   },
   {
-    "revision": "b2138751ec3c40bb5c24fcea41aaff9d",
-    "url": "/static/media/close.b2138751.svg"
+    "revision": "35a6ccb5ed555dd6c31878ae02c9fd0d",
+    "url": "/static/media/close-hover.35a6ccb5.svg"
   },
   {
     "revision": "36989eac374b26347085d3cfcb424b10",
     "url": "/static/media/left.36989eac.svg"
+  },
+  {
+    "revision": "b2138751ec3c40bb5c24fcea41aaff9d",
+    "url": "/static/media/close.b2138751.svg"
   },
   {
     "revision": "f1f1e485ac728c93034fb4df818eccae",
@@ -68,15 +68,15 @@ self.__precacheManifest = [
     "url": "/static/media/main-background-2.3aa76724.jpg"
   },
   {
-    "revision": "76682d8f7760a711ff8b28e64acf580e",
-    "url": "/static/media/about-me-background.76682d8f.jpg"
-  },
-  {
     "revision": "4f23f8e0f4b443a047cfe05dc5d19536",
     "url": "/static/media/latest-works-background.4f23f8e0.jpg"
   },
   {
-    "revision": "b0301300cb534e9102876bf8a6797fa7",
+    "revision": "76682d8f7760a711ff8b28e64acf580e",
+    "url": "/static/media/about-me-background.76682d8f.jpg"
+  },
+  {
+    "revision": "95cf26dff61133a32c1c8b43f7b45fb4",
     "url": "/index.html"
   }
 ];
