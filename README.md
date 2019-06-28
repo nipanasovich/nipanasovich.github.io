@@ -1,4 +1,4 @@
-# jintsuu.github.io
+# nipanasovich.github.io
 My portfolio
 
 Designed and created by myself.
